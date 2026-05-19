@@ -30,4 +30,4 @@ GitHub (privado) → Vercel (deploy automático a cada push na `main`).
 
 ## URL de produção
 
-*(preencher após deploy)*
+https://plano-de-redencao-app.vercel.app
