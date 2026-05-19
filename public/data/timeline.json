@@ -1,0 +1,1317 @@
+{
+  "versao": "1.0",
+  "ultima_atualizacao": "2026-05-18",
+  "historico_mudancas": [
+    {
+      "data": "2026-05-18",
+      "descricao": "Extração inicial do v3 HTML para JSON canônico com fontes rastreáveis",
+      "autor": "Claude/Arthur"
+    },
+    {
+      "data": "2026-05-18",
+      "descricao": "Resolução de pendências: 4 afirmações localizadas no PDF com página exata",
+      "autor": "Claude/Arthur"
+    }
+  ],
+  "estacoes": [
+    {
+      "id": "criacao",
+      "ordem": 1,
+      "tipo_no": "principal",
+      "nome_curto": "Criação e Vida",
+      "icone": "🌿",
+      "referencia_curta": "Hb 1.10",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: O Propósito da Bíblia e do Homem"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 1-20",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Criação e Vida com Deus",
+      "subtitulo_painel": "O propósito original — o homem criado para relacionamento e manifestação",
+      "_fonte_titulo": {
+        "arquivo": "Aula 1 anotações estruturadas.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: O Propósito da Bíblia e do Homem"
+      },
+      "resumido_html": "<div style=\"max-width:800px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 800 400\" preserveAspectRatio=\"none\">\n        <line x1=\"400\" y1=\"100\" x2=\"400\" y2=\"180\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <line x1=\"400\" y1=\"250\" x2=\"400\" y2=\"300\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 400 340 Q 230 350 160 370\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 400 340 Q 570 350 640 370\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:420px\">\n        <div class=\"nd\" style=\"top:0;left:50%;transform:translateX(-50%);width:220px\"><div class=\"nd-icon\">🌿</div><div class=\"nd-nome\">Criação</div><div class=\"nd-txt\">o início de tudo · Gn 1-2</div></div>\n        <div class=\"vsc\" style=\"top:180px;left:50%;transform:translateX(-50%);width:440px\"><div class=\"vsc-txt\">\"E criou Deus o homem à sua imagem; à imagem de Deus o criou.\"</div><div class=\"vsc-ref\">Gênesis 1:27</div></div>\n        <div class=\"nd\" style=\"top:330px;left:4%;width:200px\"><div class=\"nd-nome\">Propósito</div><div class=\"nd-txt\">relacionamento · manifestação · glorificá-Lo</div></div>\n        <div class=\"nd\" style=\"top:330px;left:56%;width:220px\"><div class=\"nd-nome\">O Éden</div><div class=\"nd-txt\">primeiro templo — Deus habitando com o homem</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: O Propósito da Bíblia e do Homem"
+        },
+        {
+          "arquivo": "Aula 1 transcrição.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "00:01:36-00:02:42"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 780\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 100 L 550 160\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar)\" opacity=\"0.7\"/>\n        <path d=\"M 450 300 Q 310 330 240 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar)\" opacity=\"0.7\"/>\n        <path d=\"M 650 300 Q 790 330 860 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar)\" opacity=\"0.7\"/>\n        <path d=\"M 240 500 L 240 560\" stroke=\"#c9a227\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar)\" opacity=\"0.6\" stroke-dasharray=\"4 4\"/>\n        <path d=\"M 860 500 L 860 560\" stroke=\"#c9a227\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar)\" opacity=\"0.6\" stroke-dasharray=\"4 4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:760px\">\n        <div class=\"ndb\" style=\"top:0;left:50%;transform:translateX(-50%);width:240px\"><div class=\"ndb-ic\">🌿</div><div class=\"ndb-nm\">A Criação</div><div class=\"ndb-tx\">Hb 1:10 · Gn 1:1</div></div>\n        <div class=\"vcb\" style=\"top:160px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">Gênesis 1:26-27</div><div class=\"vcb-txt\">\"Façamos o homem à nossa imagem, conforme a nossa semelhança... E criou Deus o homem à sua imagem.\"</div></div>\n        <div class=\"rtl\" style=\"top:328px;left:22%\">propósito</div>\n        <div class=\"rtl\" style=\"top:328px;left:63%\">habitação</div>\n        <div class=\"ndb\" style=\"top:380px;left:9%;width:250px\"><div class=\"ndb-ic\">🎯</div><div class=\"ndb-nm\">Três Propósitos</div><div class=\"ndb-tx\">Relacionamento · Manifestação do caráter de Deus · Glorificá-Lo</div></div>\n        <div class=\"ndb\" style=\"top:380px;left:59%;width:250px\"><div class=\"ndb-ic\">🏛️</div><div class=\"ndb-nm\">O Éden — 1º Templo</div><div class=\"ndb-tx\">Lugar onde Deus habitava com o homem</div></div>\n        <div class=\"ndb\" style=\"top:560px;left:9%;width:250px\"><div class=\"ndb-ic\">👤</div><div class=\"ndb-nm\">A Tricotomia</div><div class=\"ndb-tx\">Espírito · Alma · Corpo<br>Em harmonia perfeita, subordinados a Deus</div></div>\n        <div class=\"ndb\" style=\"top:560px;left:59%;width:250px\"><div class=\"ndb-ic\">➡️</div><div class=\"ndb-nm\">Progressão do Templo</div><div class=\"ndb-tx\">Éden → Tabernáculo → Templo → Cristo → Igreja → Nova Jerusalém</div></div>\n        <div class=\"vcb\" style=\"top:560px;left:50%;transform:translateX(-50%);width:200px;text-align:center\"><div class=\"vcb-ref\">Romanos 1:20</div><div class=\"vcb-txt\" style=\"font-size:0.8rem\">\"As coisas invisíveis são claramente vistas... para que fiquem inescusáveis.\"</div></div>\n        <div class=\"anot\" style=\"top:40px;right:30px;transform:rotate(-3deg)\">Imagem e semelhança — feito para manifestar quem Deus é</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: O Propósito da Bíblia e do Homem"
+        },
+        {
+          "arquivo": "Aula 1 transcrição.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "00:01:36-00:03:51"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 8 e 24",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "O homem foi criado para três propósitos: Relacionamento com Deus, Manifestação do caráter de Deus e Glorificá-Lo.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: O Propósito da Bíblia e do Homem"
+          }
+        },
+        {
+          "texto": "O Éden era o primeiro templo — lugar onde Deus habitava com o homem.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 24 (slide 'Criação e vida com Deus') — possivelmente em diagrama visual",
+            "autor": "Pr. Ricardo",
+            "nota": "conceito teológico recorrente; confirmar no slide visual"
+          }
+        },
+        {
+          "texto": "A tricotomia do homem: Espírito, Alma e Corpo — em harmonia perfeita, subordinados a Deus.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: O Propósito da Bíblia e do Homem"
+          }
+        },
+        {
+          "texto": "Progressão do templo: Éden → Tabernáculo → Templo → Cristo → Igreja → Nova Jerusalém.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 24 (slide 'Criação e vida com Deus')",
+            "autor": "Pr. Ricardo",
+            "nota": "conteúdo possivelmente em diagrama visual do slide"
+          }
+        },
+        {
+          "texto": "Imagem e semelhança — o homem foi feito para manifestar quem Deus é.",
+          "_fonte": {
+            "arquivo": "Aula 1 transcrição.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "00:03:51-00:04:24"
+          }
+        }
+      ]
+    },
+    {
+      "id": "queda",
+      "ordem": 2,
+      "tipo_no": "principal",
+      "nome_curto": "Pecado e Queda",
+      "icone": "💀",
+      "referencia_curta": "Gn 3.1-6 · Rm 3.23",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Queda e a Liberdade de Escolha"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 20-35",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "classe_no": "q",
+      "titulo_painel": "Pecado e Queda do Homem",
+      "subtitulo_painel": "A separação de Deus — a raiz do problema e a razão de toda a solução",
+      "_fonte_titulo": {
+        "arquivo": "Aula 1 anotações estruturadas.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: A Queda e a Liberdade de Escolha"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 700 420\" preserveAspectRatio=\"none\">\n        <line x1=\"350\" y1=\"80\" x2=\"350\" y2=\"160\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <line x1=\"350\" y1=\"260\" x2=\"350\" y2=\"320\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 350 360 Q 200 365 130 380\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 350 360 Q 500 365 570 380\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:420px\">\n        <div class=\"nd\" style=\"top:0;left:50%;transform:translateX(-50%);width:280px\"><div class=\"nd-icon\">💀</div><div class=\"nd-nome\">A Queda</div><div class=\"nd-txt\">Adão se moveu pelas próprias conclusões — não pela voz de Deus</div></div>\n        <div class=\"vsc\" style=\"top:160px;left:50%;transform:translateX(-50%);width:420px\"><div class=\"vsc-txt\">\"Porque todos pecaram e estão destituídos da glória de Deus.\"</div><div class=\"vsc-ref\">Romanos 3:23</div></div>\n        <div class=\"nd\" style=\"top:330px;left:3%;width:200px\"><div class=\"nd-nome\">Morte Espiritual</div><div class=\"nd-txt\">desconexão do espírito de Deus · separação</div></div>\n        <div class=\"nd\" style=\"top:330px;left:54%;width:220px\"><div class=\"nd-nome\">Duas Linhagens</div><div class=\"nd-txt\">filhos dos homens × filhos de Deus</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Queda e a Liberdade de Escolha"
+        },
+        {
+          "arquivo": "Aula 1 transcrição.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "00:06:16-00:08:05"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 820\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar2\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 100 L 550 165\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar2)\" opacity=\"0.7\"/>\n        <path d=\"M 430 305 Q 300 340 230 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar2)\" opacity=\"0.7\"/>\n        <path d=\"M 670 305 Q 800 340 870 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar2)\" opacity=\"0.7\"/>\n        <path d=\"M 230 500 L 230 570\" stroke=\"#c9a227\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar2)\" opacity=\"0.6\" stroke-dasharray=\"4 4\"/>\n        <path d=\"M 870 500 L 870 570\" stroke=\"#aa3333\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar2)\" opacity=\"0.6\" stroke-dasharray=\"4 4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:800px\">\n        <div class=\"ndb\" style=\"top:0;left:50%;transform:translateX(-50%);width:280px\"><div class=\"ndb-ic\">💀</div><div class=\"ndb-nm\">O Pecado Original</div><div class=\"ndb-tx\">Adão agiu por suas próprias conclusões — natureza adâmica</div></div>\n        <div class=\"vcb\" style=\"top:165px;left:50%;transform:translateX(-50%);width:500px\"><div class=\"vcb-ref\">Gênesis 2:17 · Romanos 5:12</div><div class=\"vcb-txt\">\"Por isso, como por um homem o pecado entrou no mundo, e pelo pecado a morte, assim a morte passou a todos os homens, porque todos pecaram.\"</div></div>\n        <div class=\"rtl\" style=\"top:345px;left:18%\">consequências</div>\n        <div class=\"rtl\" style=\"top:345px;left:64%\">linhagens</div>\n        <div class=\"ndb\" style=\"top:380px;left:6%;width:260px\"><div class=\"ndb-ic\">⚡</div><div class=\"ndb-nm\">As Consequências</div><div class=\"ndb-tx\">Morte espiritual · separação de Deus · corrupção da natureza · morte física</div></div>\n        <div class=\"ndb\" style=\"top:380px;left:59%;width:260px\"><div class=\"ndb-ic\">🔀</div><div class=\"ndb-nm\">Duas Linhagens — Gn 6</div><div class=\"ndb-tx\">Filhos de Deus (via Sete) × Filhos dos Homens (via Caim)</div></div>\n        <div class=\"vcb\" style=\"top:570px;left:6%;width:260px\"><div class=\"vcb-ref\">Romanos 3:23</div><div class=\"vcb-txt\">\"Porque todos pecaram e estão destituídos da glória de Deus.\"</div></div>\n        <div class=\"ndb\" style=\"top:570px;left:59%;width:260px;border-color:rgba(180,50,50,0.5)\"><div class=\"ndb-ic\">🌊</div><div class=\"ndb-nm\">O Dilúvio</div><div class=\"ndb-tx\">A mistura das linhagens gerou o aumento do pecado que levou ao julgamento</div></div>\n        <div class=\"anot\" style=\"top:40px;right:30px;transform:rotate(-2deg)\">Não confunda livre-arbítrio com independência e liberdade</div>\n        <div class=\"vcb\" style=\"top:700px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">Gênesis 3:15 — a primeira promessa</div><div class=\"vcb-txt\">\"Esta te ferirá a cabeça, e tu lhe ferirás o calcanhar.\" — A solução já está plantada no problema</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Queda e a Liberdade de Escolha"
+        },
+        {
+          "arquivo": "Aula 1 transcrição.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "00:06:16-00:08:36"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 25-26",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Adão agiu por suas próprias conclusões — não pela voz de Deus. Essa é a natureza adâmica.",
+          "_fonte": {
+            "arquivo": "Aula 1 transcrição.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "00:07:12-00:07:52"
+          }
+        },
+        {
+          "texto": "As consequências da queda: morte espiritual (desconexão de Deus), corrupção da natureza, morte física.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: A Queda e a Liberdade de Escolha"
+          }
+        },
+        {
+          "texto": "Duas linhagens em Gênesis 6: Filhos de Deus (via Sete) × Filhos dos Homens (via Caim).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 26: 'Filhos dos homens X Filhos de Deus — Gn 6'",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "Não confunda livre-arbítrio com independência e liberdade — o homem não tem onisciência para gerir as consequências de suas escolhas.",
+          "_fonte": {
+            "arquivo": "Aula 1 transcrição.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "00:04:24-00:05:26"
+          }
+        },
+        {
+          "texto": "A solução já está plantada no problema: Gênesis 3:15 é a primeira promessa de redenção.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: A Restauração em Cristo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "promessa",
+      "ordem": 3,
+      "tipo_no": "principal",
+      "nome_curto": "Promessa de Salvação",
+      "icone": "📜",
+      "referencia_curta": "Gn 3.15",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Restauração em Cristo"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 35-50",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Promessa de Salvação — O Proto-Evangelho",
+      "subtitulo_painel": "Gênesis 3:15 — A primeira promessa de redenção, plantada no momento da Queda",
+      "_fonte_titulo": {
+        "arquivo": "Aula 1 anotações estruturadas.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: A Restauração em Cristo"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 30px\">\n    <div style=\"text-align:center;padding:20px 0 30px\">\n      <div style=\"display:inline-block;padding:20px 30px;border:1px solid rgba(201,162,39,0.35);border-radius:2px;background:rgba(201,162,39,0.05);max-width:520px\">\n        <div class=\"nd-nome\" style=\"font-size:0.72rem;margin-bottom:10px\">Gênesis 3:15 — O Primeiro Evangelho</div>\n        <div style=\"font-size:1.05rem;color:var(--op);font-style:italic;line-height:1.6;font-weight:300\">\"E eu porei inimizade entre ti e a mulher, e entre a tua semente e a sua semente; esta te ferirá a cabeça, e tu lhe ferirás o calcanhar.\"</div>\n      </div>\n    </div>\n    <div style=\"position:relative;height:240px\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 700 240\" preserveAspectRatio=\"none\">\n        <path d=\"M 350 20 Q 200 60 140 120\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n        <path d=\"M 350 20 Q 500 60 560 120\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2\">\n        <div class=\"nd\" style=\"top:80px;left:3%;width:220px\"><div class=\"nd-nome\">\"Ferirás o calcanhar\"</div><div class=\"nd-txt\">Cristo sofreria na cruz — ferida temporária</div></div>\n        <div class=\"nd\" style=\"top:80px;left:55%;width:220px\"><div class=\"nd-nome\">\"Ferirá a tua cabeça\"</div><div class=\"nd-txt\">Cristo destruiria o domínio do diabo — golpe fatal</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Restauração em Cristo"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 35-50",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 740\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar3\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 130 L 550 200\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar3)\" opacity=\"0.7\"/>\n        <path d=\"M 430 320 Q 280 355 210 400\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar3)\" opacity=\"0.7\"/>\n        <path d=\"M 670 320 Q 820 355 890 400\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar3)\" opacity=\"0.7\"/>\n        <path d=\"M 210 520 Q 350 590 490 640\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar3)\" opacity=\"0.8\"/>\n        <path d=\"M 890 520 Q 750 590 610 640\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar3)\" opacity=\"0.8\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:720px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:500px\"><div class=\"vcb-ref\">Gênesis 3:15 — O Proto-Evangelho</div><div class=\"vcb-txt\">\"E eu colocarei inimizade entre ti e a mulher, e entre a tua semente e a sua semente; ela ferirá a tua cabeça, e tu lhe ferirás o calcanhar.\"</div></div>\n        <div class=\"rtl\" style=\"top:358px;left:14%\">ferida temporária</div>\n        <div class=\"rtl\" style=\"top:358px;left:64%\">golpe fatal</div>\n        <div class=\"ndb\" style=\"top:400px;left:5%;width:255px\"><div class=\"ndb-ic\">🩸</div><div class=\"ndb-nm\">\"Ferirás o calcanhar\"</div><div class=\"ndb-tx\">Cristo sofreria na cruz — ferida temporária, mas necessária</div></div>\n        <div class=\"ndb\" style=\"top:400px;left:61%;width:255px\"><div class=\"ndb-ic\">💥</div><div class=\"ndb-nm\">\"Ferirá a tua cabeça\"</div><div class=\"ndb-tx\">Cristo destruiria o domínio do diabo — golpe fatal e definitivo</div></div>\n        <div class=\"ndb\" style=\"top:640px;left:50%;transform:translateX(-50%);width:320px;border-color:var(--oc)\"><div class=\"ndb-ic\">✝️</div><div class=\"ndb-nm\">Cristo — O Cumprimento</div><div class=\"ndb-tx\">\"Para este propósito o Filho de Deus foi manifestado: para destruir as obras do diabo.\" — 1Jo 3:8</div></div>\n        <div class=\"fxa\" style=\"top:200px;right:10px;width:220px\"><div class=\"fxa-t\">⚠ Plano do Inimigo</div><p style=\"font-size:0.77rem;color:#d4b8b8;margin-bottom:8px;font-style:italic;line-height:1.4\">Consciente de Gn 3:15, tenta destruir a linhagem:</p><ul class=\"fxa-items\"><li>Influenciou o assassinato de Abel</li><li>Pretendeu matar José</li><li>Pretendeu matar Moisés</li><li>Pretendeu matar Jesus</li></ul><p class=\"fxa-note\">Jo 8:44 — \"homicida desde o princípio\"<br>Deus tem um plano geracional e o diabo também</p></div>\n        <div class=\"ndb\" style=\"top:200px;left:10px;width:230px\"><div class=\"ndb-ic\">🌑</div><div class=\"ndb-nm\">A Sombra dos Sacrifícios</div><div class=\"ndb-tx\">Vestes de pele — 1º derramamento de sangue para cobrir o pecado. O sangue animal cobre, não tira (Hb 10:4)</div></div>\n        <div class=\"anot\" style=\"top:560px;right:30px;transform:rotate(-2deg);max-width:170px\">Todo o AT é a narrativa de como Deus preparou o caminho para o Salvador</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Restauração em Cristo"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "página 26",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "'Ferirás o calcanhar': Cristo sofreria na Cruz — ferida temporária, mas necessária.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 35-50",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "'Ferirá a tua cabeça': Cristo destruiria o domínio do diabo — golpe fatal e definitivo.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 35-50",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "Plano do inimigo: ciente de Gênesis 3:15, tentou destruir a linhagem em cada geração — assassinato de Abel, tentar matar José, Moisés, Jesus.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 26: 'O Plano do Inimigo — Jo 8:44'",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "As vestes de pele em Gênesis 3 representam o primeiro derramamento de sangue para cobrir o pecado — sombra do sacrifício de Cristo (o sangue animal cobre, não tira — Hb 10:4).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 35-50",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "Todo o Antigo Testamento é a narrativa de como Deus preparou o caminho para o Salvador.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "Sumário"
+          }
+        }
+      ]
+    },
+    {
+      "id": "noe",
+      "ordem": 4,
+      "tipo_no": "principal",
+      "nome_curto": "Aliança de Noé",
+      "icone": "🌊",
+      "referencia_curta": "Gn 9.9",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Narrativa bíblica e exemplificação"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 50-65",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Aliança de Noé — De um Homem para uma Família",
+      "subtitulo_painel": "Deus preserva uma família justa — a aliança se expande e repovoamento da terra",
+      "_fonte_titulo": {
+        "arquivo": "Aula 2 anotação estruturada.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: Narrativa bíblica e exemplificação"
+      },
+      "resumido_html": "<div style=\"max-width:650px;margin:0 auto;padding:10px 20px 30px\">\n    <div class=\"n1-vl\" style=\"position:relative\">\n      <div class=\"n1-vl-node\" style=\"width:300px\"><div class=\"nd-icon\" style=\"font-size:1.6rem;margin-bottom:4px\">🌊</div><div class=\"nd-nome\">Noé e o Dilúvio</div><div class=\"nd-txt\" style=\"font-size:0.82rem\">Mistura das linhagens → julgamento de Deus</div></div>\n      <div style=\"height:30px\"></div>\n      <div class=\"vsc\" style=\"position:relative;width:460px;text-align:center;z-index:2;background:var(--v);padding:12px 20px\"><div class=\"vsc-txt\">\"Mas Noé achou graça aos olhos do Senhor.\"</div><div class=\"vsc-ref\">Gênesis 6:8</div></div>\n      <div style=\"height:30px\"></div>\n      <div class=\"n1-vl-node\" style=\"width:380px\"><div class=\"nd-nome\">Aliança com Noé — Gn 9:9</div><div class=\"nd-txt\" style=\"font-size:0.82rem\">Uma família preservada · arco-íris · abrange toda a criação</div></div>\n      <div style=\"height:30px\"></div>\n      <div class=\"n1-bif\" style=\"position:relative;z-index:2;background:var(--v);padding:0 20px\">\n        <div class=\"n1-bif-item\"><div class=\"n1-bif-nm\">Três Famílias</div><div class=\"n1-bif-desc\">Sem · Cam · Jafé<br>Repovoamento da terra</div></div>\n        <div class=\"n1-bif-item\"><div class=\"n1-bif-nm\">Babel → Abraão</div><div class=\"n1-bif-desc\">De Sem virá a linhagem do Messias</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Narrativa bíblica e exemplificação"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 50-65",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 760\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar4\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 100 L 550 170\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.7\"/>\n        <path d=\"M 550 290 L 550 360\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.7\"/>\n        <path d=\"M 420 480 Q 270 510 200 560\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.7\"/>\n        <path d=\"M 550 480 L 550 560\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.7\"/>\n        <path d=\"M 680 480 Q 830 510 900 560\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.7\"/>\n        <path d=\"M 200 660 Q 350 710 480 720\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar4)\" opacity=\"0.75\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:740px\">\n        <div class=\"ndb\" style=\"top:0;left:50%;transform:translateX(-50%);width:300px\"><div class=\"ndb-ic\">🌊</div><div class=\"ndb-nm\">O Dilúvio</div><div class=\"ndb-tx\">A mistura das linhagens e o aumento do pecado · julgamento de Deus</div></div>\n        <div class=\"vcb\" style=\"top:170px;left:50%;transform:translateX(-50%);width:440px\"><div class=\"vcb-ref\">Gênesis 9:9 · Hb 7:22</div><div class=\"vcb-txt\">\"Estabelecerei a minha aliança convosco... e nunca mais todas as carnes serão exterminadas pelas águas do dilúvio.\"</div></div>\n        <div class=\"ndb\" style=\"top:360px;left:50%;transform:translateX(-50%);width:280px\"><div class=\"ndb-ic\">🌈</div><div class=\"ndb-nm\">A Aliança com Noé</div><div class=\"ndb-tx\">Uma família · arco-íris · abrange toda a criação · não apenas Israel</div></div>\n        <div class=\"rtl\" style=\"top:520px;left:10%\">povos ocidentais</div>\n        <div class=\"rtl\" style=\"top:520px;left:43%\">povos africanos</div>\n        <div class=\"rtl\" style=\"top:520px;left:70%\">linhagem semita</div>\n        <div class=\"ndb\" style=\"top:560px;left:3%;width:205px\"><div class=\"ndb-ic\">🌍</div><div class=\"ndb-nm\">Jafé</div><div class=\"ndb-tx\">Gregos, romanos, germanos, eslavos, celtas, escandinavos</div></div>\n        <div class=\"ndb\" style=\"top:560px;left:37%;width:205px\"><div class=\"ndb-ic\">🌍</div><div class=\"ndb-nm\">Cam</div><div class=\"ndb-tx\">Egito, Etiópia, cananeus, árabes tribais</div></div>\n        <div class=\"ndb\" style=\"top:560px;left:71%;width:205px\"><div class=\"ndb-ic\">⭐</div><div class=\"ndb-nm\">Sem</div><div class=\"ndb-tx\">Hebreus, árabes, assírios, caldeus, arameus · linhagem de Abraão</div></div>\n        <div class=\"ndb\" style=\"top:700px;left:28%;width:280px;border-color:var(--oc)\"><div class=\"ndb-ic\">🏗️</div><div class=\"ndb-nm\">Torre de Babel → Dispersão → Abraão</div><div class=\"ndb-tx\">De Sem, em Ur dos Caldeus, nasce Abraão — início do caminho ao Messias</div></div>\n        <div class=\"anot\" style=\"top:170px;right:20px;transform:rotate(-2deg);max-width:160px\">Aliança não-condicional — sinal do caráter de Deus que cumpre o que promete</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Narrativa bíblica e exemplificação"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 15 e 27",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "A aliança com Noé é não-condicional — sinal do caráter de Deus que cumpre o que promete.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 27: Gn 9:7-19 — 'Aliança de Noé'",
+            "autor": "Pr. Ricardo",
+            "nota": "síntese interpretativa da aliança incondicional de Gn 9:9"
+          }
+        },
+        {
+          "texto": "Três famílias de Noé: Jafé (gregos, romanos, germanos, eslavos, celtas, escandinavos), Cam (Egito, Etiópia, cananeus, árabes tribais), Sem (hebreus, árabes, assírios, caldeus, arameus — linhagem de Abraão).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 50-65",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "De Sem, em Ur dos Caldeus, nasce Abraão — início do caminho ao Messias após Babel.",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Narrativa bíblica e exemplificação"
+          }
+        },
+        {
+          "texto": "A aliança de Noé abrange toda a criação, não apenas Israel.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 50-65",
+            "autor": "Pr. Ricardo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "abraao",
+      "ordem": 5,
+      "tipo_no": "principal",
+      "nome_curto": "Aliança de Abraão",
+      "icone": "⭐",
+      "referencia_curta": "Gn 12.3 · Rm 4.3",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 65-80",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Aliança de Abraão — Pai da Fé",
+      "subtitulo_painel": "De uma família para um patriarcado — a fé como fundamento da justiça",
+      "_fonte_titulo": {
+        "arquivo": "Aula 2 anotação estruturada.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: Estrutura do Antigo Testamento"
+      },
+      "resumido_html": "<div style=\"max-width:900px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 900 720\" preserveAspectRatio=\"none\">\n        <line x1=\"450\" y1=\"120\" x2=\"450\" y2=\"200\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <line x1=\"450\" y1=\"380\" x2=\"450\" y2=\"460\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 450 460 Q 300 470 220 480\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n        <path d=\"M 450 460 Q 600 470 680 480\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:720px\">\n        <div class=\"nd\" style=\"top:0;left:50%;transform:translateX(-50%);width:220px\"><div class=\"nd-icon\">⭐</div><div class=\"nd-nome\">Abraão</div><div class=\"nd-txt\">\"Deixa a tua terra...\" · Gn 12</div></div>\n        <div class=\"vsc\" style=\"top:200px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vsc-txt\">\"Abraão creu em Deus, e isso lhe foi imputado como justiça.\"</div><div class=\"vsc-ref\">Romanos 4:3 · Gênesis 15:6</div></div>\n        <div class=\"nd\" style=\"top:480px;left:8%;width:240px\"><div class=\"nd-nome\">Justificação pela Fé</div><div class=\"nd-txt\">Não pelas obras — pela fé</div></div>\n        <div class=\"nd\" style=\"top:480px;left:58%;width:260px\"><div class=\"nd-nome\">Expansão</div><div class=\"nd-txt\">Um homem → uma família → um povo → o mundo</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 65-80",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1280px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1280 1280\" preserveAspectRatio=\"none\">\n        <defs>\n          <marker id=\"ar5\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker>\n          <marker id=\"ar5g\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#e8c547\"/></marker>\n        </defs>\n        <path d=\"M 640 95 L 640 130\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\"/>\n        <path d=\"M 640 245 L 640 280\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\"/>\n        <path d=\"M 530 460 Q 380 495 280 530\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\"/>\n        <path d=\"M 750 460 Q 920 495 1000 530\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\"/>\n        <path d=\"M 280 660 L 280 760\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\" stroke-dasharray=\"5 5\"/>\n        <path d=\"M 1000 660 L 1000 760\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar5)\" opacity=\"0.7\" stroke-dasharray=\"5 5\"/>\n        <path d=\"M 380 870 Q 500 940 580 980\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar5g)\" opacity=\"0.85\"/>\n        <path d=\"M 900 870 Q 780 940 700 980\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar5g)\" opacity=\"0.85\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:1260px\">\n        <div class=\"ndb\" style=\"top:0;left:50%;transform:translateX(-50%);width:220px\"><div class=\"ndb-ic\">⭐</div><div class=\"ndb-nm\">Abraão</div><div class=\"ndb-tx\">Ur dos Caldeus · descendente de Sem</div></div>\n        <div class=\"ndb\" style=\"top:130px;left:50%;transform:translateX(-50%);width:280px\"><div class=\"ndb-nm\">Chamado de Gn 12</div><div class=\"ndb-tx\">\"Deixa a tua terra, a tua parentela e a casa de teu pai...\"</div></div>\n        <div class=\"vcb\" style=\"top:280px;left:50%;transform:translateX(-50%);width:460px\"><div class=\"vcb-ref\">Gênesis 15:6 · Romanos 4:3</div><div class=\"vcb-txt\">\"Abraão creu em Deus, e isso lhe foi imputado como justiça.\"</div><div class=\"vcb-micro\"><span>Gn 12:3</span><span>Rm 4:1-5</span><span>Hb 11:8</span></div></div>\n        <div class=\"rtl\" style=\"top:95px;left:50%;transform:translateX(-50%)\">é chamado</div>\n        <div class=\"rtl\" style=\"top:248px;left:50%;transform:translateX(-50%)\">crê e obedece</div>\n        <div class=\"rtl\" style=\"top:472px;left:18%\">princípio</div>\n        <div class=\"rtl\" style=\"top:472px;left:64%\">linhagem</div>\n        <div class=\"rtl\" style=\"top:702px;left:17%\">aponta para</div>\n        <div class=\"rtl\" style=\"top:702px;left:65%\">prepara</div>\n        <div class=\"rtl\" style=\"top:922px;left:50%;transform:translateX(-50%)\">cumpre</div>\n        <div class=\"ndb\" style=\"top:530px;left:12%;width:240px\"><div class=\"ndb-ic\">⚖️</div><div class=\"ndb-nm\">Justificação pela Fé</div><div class=\"ndb-tx\">Não pelas obras da lei, mas pela fé · justiça imputada</div></div>\n        <div class=\"ndb\" style=\"top:530px;left:60%;width:240px\"><div class=\"ndb-ic\">🌳</div><div class=\"ndb-nm\">Expansão da Aliança</div><div class=\"ndb-tx\">Um homem → uma família → um povo</div></div>\n        <div class=\"ndb\" style=\"top:760px;left:12%;width:240px\"><div class=\"ndb-ic\">🕊️</div><div class=\"ndb-nm\">Nova Aliança</div><div class=\"ndb-tx\">Rm 4 · fundamento da fé cristã — sempre foi pela fé</div></div>\n        <div class=\"ndb\" style=\"top:760px;left:60%;width:240px\"><div class=\"ndb-ic\">✡️</div><div class=\"ndb-nm\">Israel Nasce</div><div class=\"ndb-tx\">Isaque → Jacó → 12 tribos · linhagem do Messias</div></div>\n        <div class=\"ndb\" style=\"top:980px;left:50%;transform:translateX(-50%);width:320px;border-color:var(--oc);box-shadow:0 0 38px rgba(201,162,39,0.22)\"><div class=\"ndb-ic\">✝️</div><div class=\"ndb-nm\">Cristo — Cumprimento</div><div class=\"ndb-tx\">\"Em ti serão benditas todas as famílias da Terra\" — alcança gentios · Gn 12:3</div></div>\n        <div class=\"tl\" style=\"top:80px;right:0;width:200px\"><div class=\"tl-t\">A Linhagem · Gn 12-50</div><ul class=\"tl-items\"><li><strong>Abraão</strong><br>Pai da fé</li><li><strong>Isaque</strong><br>Filho da promessa</li><li><strong>Jacó (Israel)</strong><br>12 filhos · 12 tribos</li><li><strong>José</strong><br>Leva Israel ao Egito</li><li><strong>Davi</strong><br>Linhagem real do Messias</li></ul></div>\n        <div class=\"cit-bl\" style=\"top:400px;right:0;width:215px\"><p>\"Pai da Fé não pela perfeição, mas porque <strong>creu</strong>. A salvação sempre foi pela fé — antes e depois da lei.\"</p></div>\n        <div class=\"fxa\" style=\"top:850px;left:0;width:230px\"><div class=\"fxa-t\">⚠ Plano do Inimigo</div><p style=\"font-size:0.77rem;color:#d4b8b8;margin-bottom:8px;font-style:italic;line-height:1.4\">Tenta destruir a linhagem em cada geração:</p><ul class=\"fxa-items\"><li>Influenciou o assassinato de Abel</li><li>Pretendeu matar José</li><li>Pretendeu matar Moisés</li><li>Pretendeu matar Jesus</li></ul><p class=\"fxa-note\">Jo 8:44 — \"homicida desde o princípio\"</p></div>\n        <div class=\"anot\" style=\"top:30px;right:220px;max-width:175px;transform:rotate(-3deg)\">Sai sem saber para onde — fé pura, baseada apenas na voz de Deus</div>\n        <div class=\"anot\" style=\"top:350px;left:30px;transform:rotate(2deg)\">Antes da circuncisão e antes da lei → Paulo usa isso em Rm 4</div>\n        <div class=\"anot\" style=\"top:600px;right:220px;transform:rotate(-2deg);max-width:165px\">400 anos no Egito antes do êxodo, mas a promessa não falhou</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "página 28",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Abraão é Pai da Fé não pela perfeição, mas porque creu. A salvação sempre foi pela fé — antes e depois da lei.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 28: Rm 4:1-5 — 'Abraão creu em Deus...'",
+            "autor": "Pr. Ricardo",
+            "nota": "síntese derivada de Rm 4:1-5"
+          }
+        },
+        {
+          "texto": "Justificação pela fé: não pelas obras da lei, mas pela fé — justiça imputada (Rm 4, Gn 15:6).",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Estrutura do Antigo Testamento"
+          }
+        },
+        {
+          "texto": "Abraão sai sem saber para onde — fé pura, baseada apenas na voz de Deus (Hb 11:8).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 65-80",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "A aliança de Abraão se expande: um homem → uma família → um povo → o mundo inteiro.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Progressão Histórica das Alianças (Antigo Testamento)"
+          }
+        },
+        {
+          "texto": "400 anos no Egito antes do êxodo, mas a promessa de Abraão não falhou.",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Narrativa bíblica e exemplificação"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aliancas",
+      "ordem": 6,
+      "tipo_no": "principal",
+      "nome_curto": "Progressão das Alianças",
+      "icone": "🤝",
+      "referencia_curta": "Hb 7.22",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: O Conceito e a Progressão das Alianças"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 80-95",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Progressão das Alianças",
+      "subtitulo_painel": "De um indivíduo para toda a humanidade — a expansão progressiva do plano",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: O Conceito e a Progressão das Alianças"
+      },
+      "resumido_html": "<div style=\"max-width:600px;margin:0 auto;padding:10px 20px 20px;position:relative\">\n    <div class=\"esc-wrapper\" style=\"display:flex;flex-direction:column;align-items:center;gap:0;position:relative\">\n      <div class=\"esc-nivel\" style=\"width:240px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Adão</div><div class=\"esc-escopo\">um indivíduo</div></div></div>\n      <div class=\"esc-nivel\" style=\"width:300px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Noé</div><div class=\"esc-escopo\">uma família</div></div></div>\n      <div class=\"esc-nivel\" style=\"width:360px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Abraão</div><div class=\"esc-escopo\">uma linhagem</div></div></div>\n      <div class=\"esc-nivel\" style=\"width:420px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Moisés</div><div class=\"esc-escopo\">um povo</div></div></div>\n      <div class=\"esc-nivel\" style=\"width:490px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Davi</div><div class=\"esc-escopo\">uma nação</div></div></div>\n      <div class=\"esc-nivel esc-final\" style=\"width:570px\"><div class=\"esc-cabec\"><div class=\"esc-nome\">Cristo</div><div class=\"esc-escopo\">toda a humanidade</div></div></div>\n      <div style=\"text-align:center;margin-top:40px;padding:0 20px\"><p style=\"font-style:italic;color:var(--op);font-size:0.98rem;line-height:1.5;font-weight:300\">\"Progressivas. Estão expandindo.\"</p><span style=\"display:block;margin-top:10px;font-family:'Cinzel',serif;font-size:0.62rem;color:var(--o);letter-spacing:0.2em\">— Tia Mônica</span></div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: O Conceito e a Progressão das Alianças"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1200px;margin:0 auto;padding:10px 20px 20px\">\n    <div class=\"n2-3col\">\n      <div>\n        <div class=\"bl\" style=\"position:relative;margin-bottom:14px;width:auto\"><div class=\"bl-t\">A Lógica da Aliança</div><p>Para Deus, uma aliança é um <strong>compromisso irrevogável</strong>. Fazer aliança é <strong>dar uma identidade</strong>.</p></div>\n        <div class=\"bl\" style=\"position:relative;margin-bottom:14px;width:auto\"><div class=\"bl-t\">Por que Várias?</div><p>Não eram <em>diferentes</em> — eram <strong>progressivas</strong>. A cada uma, Deus expandia o alcance do plano.</p></div>\n        <div class=\"bl\" style=\"position:relative;margin-bottom:14px;width:auto\"><div class=\"bl-t\">A Bíblia</div><p>A Bíblia é um <strong>documento de aliança</strong>. AT e NT = Antiga e Nova Aliança.</p></div>\n      </div>\n      <div class=\"n2-funil\">\n        <div class=\"nf nf-1\"><div class=\"nf-cab\"><div class=\"nf-ic\">👤</div><div class=\"nf-nm\">Adão</div></div><span class=\"nf-sc\">um indivíduo</span><div class=\"nf-det\">A primeira aliança · quebrada pela desobediência</div><div class=\"nf-ref\">Gn 1-3</div></div>\n        <div class=\"nf-con\">⬇</div>\n        <div class=\"nf nf-2\"><div class=\"nf-cab\"><div class=\"nf-ic\">🌊</div><div class=\"nf-nm\">Noé</div></div><span class=\"nf-sc\">uma família</span><div class=\"nf-det\">Preservada do dilúvio · arco-íris como sinal</div><div class=\"nf-ref\">Gn 9:9 · Hb 7:22</div></div>\n        <div class=\"nf-con\">⬇</div>\n        <div class=\"nf nf-3\"><div class=\"nf-cab\"><div class=\"nf-ic\">⭐</div><div class=\"nf-nm\">Abraão</div></div><span class=\"nf-sc\">um patriarcado</span><div class=\"nf-det\">\"Em ti serão benditas todas as famílias da Terra\"</div><div class=\"nf-ref\">Gn 12:3 · Rm 4:3</div></div>\n        <div class=\"nf-con\">⬇</div>\n        <div class=\"nf nf-4\"><div class=\"nf-cab\"><div class=\"nf-ic\">⚖️</div><div class=\"nf-nm\">Moisés</div></div><span class=\"nf-sc\">um povo</span><div class=\"nf-det\">12 tribos · lei · tabernáculo · sacerdócio levítico</div><div class=\"nf-ref\">Ex 19:5-6 · 1Pe 2:9</div></div>\n        <div class=\"nf-con\">⬇</div>\n        <div class=\"nf nf-5\"><div class=\"nf-cab\"><div class=\"nf-ic\">👑</div><div class=\"nf-nm\">Davi</div></div><span class=\"nf-sc\">uma nação</span><div class=\"nf-det\">Trono eterno · Israel atinge esplendor com Salomão</div><div class=\"nf-ref\">2Sm 7:16</div></div>\n        <div class=\"salto\"><span class=\"salto-r\">supera e cumpre</span></div>\n        <div class=\"nf nf-6\"><div class=\"nf-cab\"><div class=\"nf-ic\">✝️</div><div class=\"nf-nm\">Nova Aliança em Cristo</div></div><span class=\"nf-sc\">toda a humanidade · gentios incluídos</span><div class=\"nf-det\">Sangue perfeito de Cristo · A Igreja: nação sobrenatural</div><div class=\"nf-ref\">Hb 7-10 · Jr 31:31-34</div></div>\n      </div>\n      <div>\n        <div class=\"cit-bl\" style=\"position:relative;margin-bottom:14px;width:auto\"><p>\"Progressivas. Estão expandindo. Aliança de Deus com uma família, com uma geração, com um povo.\"</p><span class=\"aut\">— Tia Mônica</span></div>\n        <div class=\"bl\" style=\"position:relative;margin-bottom:14px;width:auto\"><div class=\"bl-t\">A Limitação do AT</div><p>Mesmo expandidas, as alianças eram <strong>circunscritas a Israel</strong> — insuficientes para o problema universal do pecado.</p></div>\n        <div class=\"cit-bl\" style=\"position:relative;width:auto\"><p>\"Foi abrilhantado o propósito eterno com a nação da igreja.\"</p><span class=\"aut\">— Tia Mônica</span></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: O Conceito e a Progressão das Alianças"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 80-95",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Para Deus, uma aliança é um compromisso irrevogável. Fazer aliança com alguém é dar-lhe uma identidade.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Natureza da Aliança Divina"
+          }
+        },
+        {
+          "texto": "A Bíblia é um documento de aliança: AT e NT = Antiga Aliança e Nova Aliança.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Natureza da Aliança Divina"
+          }
+        },
+        {
+          "texto": "As alianças não eram diferentes entre si — eram progressivas. A cada uma, Deus expandia o alcance do plano.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Progressão Histórica das Alianças (Antigo Testamento)"
+          }
+        },
+        {
+          "texto": "Mesmo expandidas, as alianças do AT eram circunscritas a Israel — insuficientes para resolver o problema universal do pecado.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Progressão Histórica das Alianças (Antigo Testamento)"
+          }
+        },
+        {
+          "texto": "\"Progressivas. Estão expandindo.\"",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: O Conceito e a Progressão das Alianças"
+          },
+          "autor_fala": "Tia Mônica"
+        },
+        {
+          "texto": "\"Progressivas. Estão expandindo. Aliança de Deus com uma família, com uma geração, com um povo.\"",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: O Conceito e a Progressão das Alianças"
+          },
+          "autor_fala": "Tia Mônica"
+        },
+        {
+          "texto": "\"Foi abrilhantado o propósito eterno com a nação da igreja.\"",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Nação Sobrenatural Gerada pela Nova Aliança"
+          },
+          "autor_fala": "Tia Mônica"
+        }
+      ]
+    },
+    {
+      "id": "lei",
+      "ordem": 7,
+      "tipo_no": "principal",
+      "nome_curto": "Lei e Sacrifício",
+      "icone": "⚖️",
+      "referencia_curta": "Hb 10.1-4",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Temas teológicos centrais"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 95-115",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Lei e Sacrifício Animal",
+      "subtitulo_painel": "A sombra que aponta para a realidade — preparação para Cristo",
+      "_fonte_titulo": {
+        "arquivo": "Aula 2 anotação estruturada.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: Temas teológicos centrais"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 30px\">\n    <div class=\"n1-2col\">\n      <div class=\"col-s\">\n        <div class=\"n1-col-t\">A Sombra</div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">🐑</span><div class=\"n1-ci-nm\">Sacrifício Animal</div><div class=\"n1-ci-desc\">Cobre, mas não tira</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">👨‍⚖️</span><div class=\"n1-ci-nm\">Sumo Sacerdote</div><div class=\"n1-ci-desc\">Uma vez por ano</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">📜</span><div class=\"n1-ci-nm\">A Lei</div><div class=\"n1-ci-desc\">Diagnóstica, não salva</div></div>\n      </div>\n      <div class=\"n1-div\"></div>\n      <div class=\"col-r\">\n        <div class=\"n1-col-t\">A Realidade</div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">🩸</span><div class=\"n1-ci-nm\">Cordeiro de Deus</div><div class=\"n1-ci-desc\">Um único sacrifício, para sempre</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">👑</span><div class=\"n1-ci-nm\">Sacerdote Eterno</div><div class=\"n1-ci-desc\">Segundo Melquisedeque</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\">✝️</span><div class=\"n1-ci-nm\">Cristo</div><div class=\"n1-ci-desc\">Cumpre, justifica, salva</div></div>\n      </div>\n    </div>\n    <div class=\"n1-vfinal\"><div class=\"n1-vfinal-txt\">\"Está consumado.\"</div><div class=\"n1-vfinal-ref\">João 19:30</div></div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Temas teológicos centrais"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 95-115",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div class=\"bloco-somb\">\n      <div class=\"bloco-cab\"><div class=\"bloco-tag\">Antigo Testamento</div><div class=\"bloco-titulo\">A Sombra</div><div class=\"bloco-sub\">Sistema sacrificial — não tira o pecado, apenas o cobre</div></div>\n      <div class=\"bloco-grid-3\">\n        <div class=\"item-b\"><div class=\"item-b-ic\">🐑</div><div class=\"item-b-t\">Sacrifício Animal</div><div class=\"item-b-txt\">\"Cobre\" o pecado anualmente, mas não pode tirá-lo</div><span class=\"item-b-ref\">Hb 10:4</span></div>\n        <div class=\"item-b\"><div class=\"item-b-ic\">👨‍⚖️</div><div class=\"item-b-t\">Sumo Sacerdote</div><div class=\"item-b-txt\">Único a entrar no Santo dos Santos, uma vez por ano</div><span class=\"item-b-ref\">Hb 9:7 · Yom Kippur</span></div>\n        <div class=\"item-b\"><div class=\"item-b-ic\">📜</div><div class=\"item-b-t\">A Lei</div><div class=\"item-b-txt\">Diagnostica o pecado, não justifica</div><span class=\"item-b-ref\">Rm 3:19-20</span></div>\n      </div>\n      <div class=\"lei-nums\"><div class=\"lei-num\"><div class=\"n\">613</div><div class=\"d\">mandamentos</div></div><div class=\"lei-num\"><div class=\"n\">365</div><div class=\"d\">\"não faça\"</div></div><div class=\"lei-num\"><div class=\"n\">248</div><div class=\"d\">\"faça\"</div></div></div>\n      <div class=\"lei-cats\"><div class=\"lei-cats-t\">Três categorias da Lei</div><div class=\"lei-cats-g\"><div class=\"lei-cat\"><strong>Cerimonial</strong><span>rituais e culto</span></div><div class=\"lei-cat\"><strong>Cívica</strong><span>sociedade civil</span></div><div class=\"lei-cat\"><strong>Moral</strong><span>conduta humana</span></div></div></div>\n      <div class=\"ponte-wrap\"><div class=\"ponte\"><strong>Hebreus 10:1</strong>\"A lei, tendo a sombra das coisas boas que virão... não pode aperfeiçoar os que se achegam.\"</div><div class=\"seta-d\">⬇</div></div>\n    </div>\n    <div class=\"bloco-real\">\n      <div class=\"bloco-cab\"><div class=\"bloco-tag\">Novo Testamento</div><div class=\"bloco-titulo\">✝️ A Realidade — Cristo</div><div class=\"bloco-sub\">Um único sacrifício, perfeito, para sempre</div></div>\n      <div class=\"bloco-grid-2\">\n        <div class=\"item-b\"><div class=\"item-b-ic\">🩸</div><div class=\"item-b-t\">O Cordeiro de Deus</div><div class=\"item-b-txt\">Um único sacrifício pelos pecados, oferecido para sempre</div><span class=\"item-b-ref\">Hb 10:12 · Jo 1:29</span></div>\n        <div class=\"item-b\"><div class=\"item-b-ic\">👑</div><div class=\"item-b-t\">Sumo Sacerdote Eterno</div><div class=\"item-b-txt\">Segundo a ordem de Melquisedeque — superior ao sacerdócio aaronico</div><span class=\"item-b-ref\">Hebreus 7</span></div>\n        <div class=\"vd-dest\"><div class=\"vd-dest-ref\">João 19:30 · Hebreus 10:12</div><div class=\"vd-dest-txt\">\"Está consumado!\" — Este homem, havendo oferecido um único sacrifício pelos pecados para sempre, assentou-se à direita de Deus.</div></div>\n      </div>\n      <div class=\"comp\"><div class=\"comp-a\"><div class=\"comp-t\">Sacerdotes do AT</div><div class=\"comp-txt\">Em pé, ofertando continuamente — o trabalho nunca terminava</div></div><div class=\"comp-d\"><div class=\"comp-t\">Cristo</div><div class=\"comp-txt\">Assentou-se à direita do Pai — a obra está concluída (Hb 10:12)</div></div></div>\n      <div class=\"info-ex\"><div class=\"info-ex-t\">✦ O Sacerdócio de Melquisedeque — Hb 7</div><p>Melquisedeque, rei de Salém, sacerdote do Deus Altíssimo (Gn 14), abençoou Abraão e recebeu dízimo dele. Era sacerdote sem genealogia levítica — figura tipológica de Cristo, sacerdote eterno (Hb 7:24-25).</p></div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Temas teológicos centrais"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 29-30",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "O sacrifício animal 'cobre' o pecado anualmente, mas não pode tirá-lo (Hb 10:4).",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Temas teológicos centrais"
+          }
+        },
+        {
+          "texto": "A Lei tem 613 mandamentos: 365 'não faça' e 248 'faça'.",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Temas teológicos centrais"
+          }
+        },
+        {
+          "texto": "Três categorias da Lei: Cerimonial (rituais e culto), Cívica (sociedade civil), Moral (conduta humana).",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Temas teológicos centrais"
+          }
+        },
+        {
+          "texto": "A Lei é diagnóstica, não justificadora — expõe o pecado, mas não salva (Rm 3:19-20).",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Temas teológicos centrais"
+          }
+        },
+        {
+          "texto": "Sacerdotes do AT ficavam em pé ofertando continuamente — o trabalho nunca terminava. Cristo assentou-se à direita do Pai — a obra está concluída (Hb 10:12).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 95-115",
+            "autor": "Pr. Ricardo"
+          }
+        },
+        {
+          "texto": "Melquisedeque, rei de Salém, sacerdote do Deus Altíssimo (Gn 14), abençoou Abraão e recebeu dízimo — figura tipológica de Cristo, sacerdote eterno sem genealogia levítica (Hb 7:24-25).",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "slides 95-115",
+            "autor": "Pr. Ricardo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "profetas",
+      "ordem": 8,
+      "tipo_no": "principal",
+      "nome_curto": "Profetas Anunciam",
+      "icone": "📣",
+      "referencia_curta": "Hb 1.1",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 115-125",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Os Profetas Anunciam o Salvador",
+      "subtitulo_painel": "Deus fala em muitas e variadas maneiras — 39 livros do AT apontando para Cristo",
+      "_fonte_titulo": {
+        "arquivo": "Aula 2 anotação estruturada.md",
+        "autor": "Pr. Ricardo",
+        "localizacao": "seção: Estrutura do Antigo Testamento"
+      },
+      "resumido_html": "<div style=\"max-width:800px;margin:0 auto;padding:10px 20px 30px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 800 380\" preserveAspectRatio=\"none\">\n        <line x1=\"400\" y1=\"80\" x2=\"400\" y2=\"160\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 400 260 Q 220 270 160 300\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 400 260 Q 580 270 640 300\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:390px\">\n        <div class=\"nd\" style=\"top:0;left:50%;transform:translateX(-50%);width:300px\"><div class=\"nd-nome\">Hb 1:1-2</div><div class=\"nd-txt\">\"Havendo Deus falado, outrora, muitas vezes e de muitas maneiras, pelos profetas... nestes últimos dias nos falou pelo Filho.\"</div></div>\n        <div class=\"vsc\" style=\"top:160px;left:50%;transform:translateX(-50%);width:520px\"><div class=\"vsc-txt\">\"Porque para nós um menino é nascido... e seu nome será chamado Maravilhoso, Conselheiro, O Poderoso Deus, O Pai Eterno, O Príncipe de Paz.\"</div><div class=\"vsc-ref\">Isaías 9:6</div></div>\n        <div class=\"nd\" style=\"top:310px;left:3%;width:210px\"><div class=\"nd-nome\">Profetas Maiores</div><div class=\"nd-txt\">Isaías · Jeremias · Ezequiel · Daniel</div></div>\n        <div class=\"nd\" style=\"top:310px;left:57%;width:210px\"><div class=\"nd-nome\">Profetas Menores</div><div class=\"nd-txt\">12 livros · Oseias a Malaquias</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 115-125",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 720\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar6\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 110 L 550 180\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.7\"/>\n        <path d=\"M 420 300 Q 270 330 200 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.7\"/>\n        <path d=\"M 680 300 Q 830 330 900 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.7\"/>\n        <path d=\"M 550 300 L 550 380\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.7\"/>\n        <path d=\"M 200 530 Q 380 590 520 640\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.75\"/>\n        <path d=\"M 550 530 L 550 640\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.75\"/>\n        <path d=\"M 900 530 Q 720 590 580 640\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar6)\" opacity=\"0.75\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:720px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:460px\"><div class=\"vcb-ref\">Hebreus 1:1-2</div><div class=\"vcb-txt\">\"Havendo Deus falado, outrora, muitas vezes e de muitas maneiras, aos pais pelos profetas, nestes últimos dias nos falou pelo Filho.\"</div></div>\n        <div class=\"ndb\" style=\"top:380px;left:3%;width:250px\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">Isaías</div><div class=\"ndb-tx\">\"Evangelista do AT\" · Is 9:6 — o Messias · Is 53 — o Servo sofredor</div></div>\n        <div class=\"ndb\" style=\"top:380px;left:37%;width:250px\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">Jeremias</div><div class=\"ndb-tx\">Anuncia a Nova Aliança · Jr 31:31-34 — lei no coração</div></div>\n        <div class=\"ndb\" style=\"top:380px;left:71%;width:250px\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">12 Profetas Menores</div><div class=\"ndb-tx\">Oseias a Malaquias · cada um com seu foco específico</div></div>\n        <div class=\"vcb\" style=\"top:640px;left:50%;transform:translateX(-50%);width:520px\"><div class=\"vcb-ref\">Isaías 9:6</div><div class=\"vcb-txt\">\"Porque para nós um menino é nascido, para nós um filho é dado... e seu nome será chamado Maravilhoso, Conselheiro, O Poderoso Deus, O Pai Eterno, O Príncipe de Paz.\"</div></div>\n        <div class=\"bl\" style=\"top:180px;left:10px;position:absolute;width:220px\"><div class=\"bl-t\">39 Livros do VT</div><p><strong>5</strong> Pentateuco</p><p><strong>12</strong> Históricos</p><p><strong>5</strong> Poéticos</p><p><strong>17</strong> Proféticos</p><p style=\"margin-top:6px;font-style:italic;color:var(--tx);font-size:0.77rem\">Todos apontam para Cristo</p></div>\n        <div class=\"cit-bl\" style=\"top:180px;right:10px;position:absolute;width:220px\"><p>\"A Nova Aliança: não mais lei externa — <strong>transformação interna</strong> do coração.\"</p><p style=\"margin-top:6px;font-size:0.77rem;color:var(--tx)\">Jr 31:31-33</p></div>\n        <div class=\"rtl\" style=\"top:338px;left:10%\">maiores</div>\n        <div class=\"rtl\" style=\"top:338px;left:43%\">maiores</div>\n        <div class=\"rtl\" style=\"top:338px;left:73%\">menores</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 2 anotação estruturada.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: Estrutura do Antigo Testamento"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 20-23",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "O AT tem 39 livros: 5 Pentateuco, 12 Históricos, 5 Poéticos, 17 Proféticos. Todos apontam para Cristo.",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Estrutura do Antigo Testamento"
+          }
+        },
+        {
+          "texto": "Isaías é o 'evangelista do AT': Is 9:6 anuncia o Messias; Is 53 anuncia o Servo sofredor.",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Livros históricos e proféticos"
+          }
+        },
+        {
+          "texto": "Jeremias anuncia a Nova Aliança: lei escrita no coração, não em tábuas de pedra (Jr 31:31-34).",
+          "_fonte": {
+            "arquivo": "Aula 2 anotação estruturada.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: Livros históricos e proféticos"
+          }
+        },
+        {
+          "texto": "A Nova Aliança não é mais lei externa — é transformação interna do coração.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Transformação na Nova Aliança"
+          }
+        }
+      ]
+    },
+    {
+      "id": "messias",
+      "ordem": 9,
+      "tipo_no": "principal",
+      "nome_curto": "Nasce o Messias",
+      "icone": "✨",
+      "referencia_curta": "Lc 1.31-33",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Jesus como o Segundo Adão"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 125-135",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Nasce o Messias — O Segundo Adão",
+      "subtitulo_painel": "O Verbo se fez carne — Deus entra na história para resolver o que o homem não podia",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: Jesus como o Segundo Adão"
+      },
+      "resumido_html": "<div style=\"max-width:800px;margin:0 auto;padding:10px 20px 30px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 800 440\" preserveAspectRatio=\"none\">\n        <line x1=\"400\" y1=\"70\" x2=\"400\" y2=\"160\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 400 280 Q 220 295 160 330\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 400 280 Q 580 295 640 330\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:440px\">\n        <div class=\"nd\" style=\"top:0;left:50%;transform:translateX(-50%);width:340px\"><div class=\"nd-icon\">✨</div><div class=\"nd-nome\">Nasce o Messias</div><div class=\"nd-txt\">Lc 1:30-33 · Is 9:6</div></div>\n        <div class=\"vsc\" style=\"top:160px;left:50%;transform:translateX(-50%);width:500px\"><div class=\"vsc-txt\">\"Eis que em teu ventre conceberás e darás à luz um filho... e o seu reino não terá fim.\"</div><div class=\"vsc-ref\">Lucas 1:31-33</div></div>\n        <div class=\"nd\" style=\"top:340px;left:4%;width:230px\"><div class=\"nd-nome\">O Segundo Adão</div><div class=\"nd-txt\">Obediência perfeita — submete Sua vontade ao Pai</div></div>\n        <div class=\"nd\" style=\"top:340px;left:55%;width:230px\"><div class=\"nd-nome\">Mensagem</div><div class=\"nd-txt\">\"Arrependei-vos! É chegado o Reino!\" — Mc 1:15</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Jesus como o Segundo Adão"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 125-135",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 820\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar7\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 110 L 550 190\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar7)\" opacity=\"0.7\"/>\n        <path d=\"M 550 310 L 550 390\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar7)\" opacity=\"0.7\"/>\n        <path d=\"M 410 510 Q 270 545 200 590\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar7)\" opacity=\"0.7\"/>\n        <path d=\"M 690 510 Q 830 545 900 590\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar7)\" opacity=\"0.7\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:800px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">Lucas 1:30-33</div><div class=\"vcb-txt\">\"Não temas, Maria... conceberás e darás à luz um filho, e lhe darás o nome de Jesus. Ele será grande, e será chamado Filho do Altíssimo... e o seu reino não terá fim.\"</div></div>\n        <div class=\"ndb\" style=\"top:190px;left:50%;transform:translateX(-50%);width:320px\"><div class=\"ndb-ic\">✨</div><div class=\"ndb-nm\">O Segundo Adão</div><div class=\"ndb-tx\">Contraste direto com o primeiro Adão</div></div>\n        <div class=\"vcb\" style=\"top:390px;left:50%;transform:translateX(-50%);width:440px\"><div class=\"vcb-ref\">Isaías 53:7</div><div class=\"vcb-txt\">\"Como uma ovelha muda diante dos seus tosquiadores, assim não abria a boca.\" — Adão abriu a boca para se justificar. Jesus ficou calado.</div></div>\n        <div class=\"rtl\" style=\"top:548px;left:12%\">quatro perspectivas</div>\n        <div class=\"rtl\" style=\"top:548px;left:65%\">arrependimento</div>\n        <div class=\"ndb\" style=\"top:590px;left:3%;width:260px\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">4 Faces nos Evangelhos</div><div class=\"ndb-tx\">Mateus → Rei · Marcos → Servo · Lucas → Filho do Homem · João → Filho de Deus</div></div>\n        <div class=\"ndb\" style=\"top:590px;left:59%;width:260px\"><div class=\"ndb-ic\">🙇</div><div class=\"ndb-nm\">Mensagem Central</div><div class=\"ndb-tx\">\"Arrependei-vos! É chegado o Reino!\" — Não um reino físico: o Reino vive dentro do crente</div></div>\n        <div class=\"bl\" style=\"top:190px;left:10px;position:absolute;width:230px\"><div class=\"bl-t\">Adão × Cristo</div><p>Adão <em>desobedeceu</em> — agiu por suas conclusões</p><p style=\"margin-top:4px\">Jesus <strong>obedeceu</strong> — fazia o que via o Pai fazer</p></div>\n        <div class=\"anot\" style=\"top:420px;right:20px;transform:rotate(-2deg);max-width:185px\">Antes: tudo tinha que acontecer dentro de Israel. Agora, acontece dentro de nós</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Jesus como o Segundo Adão"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "página 31",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Jesus é o Segundo Adão: em contraste com a desobediência do primeiro Adão, demonstrou obediência perfeita, submetendo Sua vontade à do Pai.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Jesus como o Segundo Adão"
+          }
+        },
+        {
+          "texto": "Adão desobedeceu — agiu por suas conclusões. Jesus obedeceu — fazia o que via o Pai fazer.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Jesus como o Segundo Adão"
+          }
+        },
+        {
+          "texto": "As quatro faces de Cristo nos Evangelhos: Mateus → Rei dos Judeus, Marcos → Servo, Lucas → Filho do Homem, João → Filho de Deus.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: As Quatro Faces de Cristo nos Evangelhos"
+          }
+        },
+        {
+          "texto": "Mensagem central de Jesus: 'Arrependei-vos! É chegado o Reino!' — não um reino físico, mas o Reino que vive dentro do crente.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Transformação na Nova Aliança"
+          }
+        },
+        {
+          "texto": "Antes: tudo tinha que acontecer dentro de Israel. Agora, acontece dentro de nós.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Transformação na Nova Aliança"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cordeiro",
+      "ordem": 10,
+      "tipo_no": "principal",
+      "nome_curto": "O Cordeiro de Deus",
+      "icone": "✝️",
+      "referencia_curta": "Jo 19.30",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 135-142",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Jesus — O Cordeiro que Tira o Pecado do Mundo",
+      "subtitulo_painel": "A Cruz como ápice do Plano de Redenção — o sacrifício perfeito e definitivo",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 30px;text-align:center\">\n    <div style=\"display:inline-block;padding:22px 32px;border:1.5px solid var(--o);border-radius:2px;background:rgba(201,162,39,0.07);box-shadow:0 0 28px rgba(201,162,39,0.18);margin:20px 0 30px\">\n      <div style=\"font-family:'Cinzel',serif;font-size:1.5rem;color:var(--o);font-weight:700;letter-spacing:0.1em\">\"Está consumado!\"</div>\n      <div style=\"font-size:0.72rem;color:var(--op);margin-top:8px;font-family:'Cinzel',serif;letter-spacing:0.15em\">João 19:30</div>\n    </div>\n    <div style=\"position:relative;height:260px\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 700 260\" preserveAspectRatio=\"none\">\n        <line x1=\"350\" y1=\"20\" x2=\"350\" y2=\"100\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 350 160 Q 210 165 150 185\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 350 160 Q 490 165 550 185\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2\">\n        <div class=\"vsc\" style=\"top:100px;position:absolute;left:50%;transform:translateX(-50%);width:460px\"><div class=\"vsc-txt\">\"Este homem, havendo oferecido um único sacrifício pelos pecados para sempre, assentou-se à direita de Deus.\"</div><div class=\"vsc-ref\">Hebreus 10:12</div></div>\n        <div class=\"nd\" style=\"top:190px;position:absolute;left:3%;width:210px\"><div class=\"nd-nome\">Jo 1:29</div><div class=\"nd-txt\">\"Eis o Cordeiro de Deus, que carrega o pecado do mundo.\"</div></div>\n        <div class=\"nd\" style=\"top:190px;position:absolute;left:54%;width:210px\"><div class=\"nd-nome\">Rm 5:8</div><div class=\"nd-txt\">\"Sendo nós ainda pecadores, Cristo morreu por nós.\"</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 135-142",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 780\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 550 130 L 550 210\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar8)\" opacity=\"0.7\"/>\n        <path d=\"M 430 330 Q 280 365 210 410\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar8)\" opacity=\"0.7\"/>\n        <path d=\"M 670 330 Q 820 365 890 410\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar8)\" opacity=\"0.7\"/>\n        <path d=\"M 210 560 Q 370 620 500 660\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar8)\" opacity=\"0.8\"/>\n        <path d=\"M 890 560 Q 730 620 600 660\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar8)\" opacity=\"0.8\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:760px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:420px;border-color:var(--oc);box-shadow:0 0 38px rgba(201,162,39,0.22)\"><div class=\"vcb-ref\">João 19:30</div><div class=\"vcb-txt\" style=\"font-size:1.05rem;font-weight:600\">\"Está consumado!\"</div></div>\n        <div class=\"ndb\" style=\"top:210px;left:50%;transform:translateX(-50%);width:360px\"><div class=\"ndb-ic\">✝️</div><div class=\"ndb-nm\">O Sacrifício Perfeito</div><div class=\"ndb-tx\">Um único sacrifício pelos pecados para sempre · assentou-se à direita do Pai (Hb 10:12)</div></div>\n        <div class=\"rtl\" style=\"top:368px;left:14%\">simbolismo</div>\n        <div class=\"rtl\" style=\"top:368px;left:67%\">o amor</div>\n        <div class=\"ndb\" style=\"top:410px;left:5%;width:265px\"><div class=\"ndb-ic\">🩸</div><div class=\"ndb-nm\">Sangue e Água</div><div class=\"ndb-tx\">Sangue → salvação única e definitiva<br>Água → purificação contínua pela Palavra</div></div>\n        <div class=\"ndb\" style=\"top:410px;left:60%;width:265px\"><div class=\"ndb-ic\">❤️</div><div class=\"ndb-nm\">O Amor de Deus</div><div class=\"ndb-tx\">\"Sendo nós ainda pecadores, Cristo morreu por nós.\" — Rm 5:8</div></div>\n        <div class=\"vcb\" style=\"top:660px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">João 1:29</div><div class=\"vcb-txt\">\"Eis o Cordeiro de Deus, que carrega o pecado do mundo.\" — Não cobre: tira. Uma vez, para sempre.</div></div>\n        <div class=\"cit-bl\" style=\"top:220px;left:10px;position:absolute;width:215px\"><p>\"Do lado ferido de Cristo nasce a Igreja, Sua noiva — paralelo com Eva nascendo da costela de Adão.\"</p></div>\n        <div class=\"anot\" style=\"top:500px;right:20px;transform:rotate(-2deg);max-width:180px\">Jesus desceu ao Hades, tomou as chaves da vida e da morte</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "página 32",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Cristo ofereceu um único sacrifício pelos pecados para sempre — o Cordeiro de Deus que carrega (não apenas cobre) o pecado do mundo (Jo 1:29).",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+          }
+        },
+        {
+          "texto": "Do lado de Jesus saíram sangue e água: sangue simboliza a salvação (ato único e definitivo); água simboliza a purificação contínua pela Palavra.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+          }
+        },
+        {
+          "texto": "Do lado ferido de Cristo nasce a Igreja, Sua noiva — paralelo com Eva nascendo da costela de Adão.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+          }
+        },
+        {
+          "texto": "Após morrer, Jesus desceu ao Hades, tomou as chaves da vida e da morte.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Simbolismo da Crucificação e Redenção"
+          }
+        }
+      ]
+    },
+    {
+      "id": "escolha",
+      "ordem": 11,
+      "tipo_no": "destaque",
+      "nome_curto": "Escolha! Pela Fé",
+      "icone": "🕊️",
+      "referencia_curta": "Jo 3.16 · Rm 10.9",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 142-145",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "classe_no": "es",
+      "titulo_painel": "A Escolha — Pela Fé em João 3:16",
+      "subtitulo_painel": "O momento decisivo: cada pessoa diante do maior convite da história",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: A Transformação na Nova Aliança"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 30px\">\n    <div style=\"text-align:center;margin-bottom:30px;padding:0 20px\">\n      <div style=\"display:inline-block;padding:20px 28px;border:1px solid rgba(201,162,39,0.35);border-radius:2px;background:rgba(201,162,39,0.05);max-width:540px\">\n        <div style=\"font-size:1.05rem;color:var(--op);font-style:italic;line-height:1.6;font-weight:300\">\"Porque Deus amou tanto ao mundo que ele deu o seu Filho unigênito, para que todo o que nele crê não pereça, mas tenha a vida eterna.\"</div>\n        <div style=\"font-family:'Cinzel',serif;font-size:0.67rem;color:var(--o);letter-spacing:0.2em;margin-top:10px\">João 3:16</div>\n      </div>\n    </div>\n    <div style=\"position:relative;height:220px\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 700 220\" preserveAspectRatio=\"none\">\n        <path d=\"M 350 20 Q 200 50 140 100\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n        <path d=\"M 350 20 Q 500 50 560 100\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2\">\n        <div class=\"nd\" style=\"top:70px;position:absolute;left:3%;width:230px\"><div class=\"nd-nome\" style=\"color:#42a86a\">Crer</div><div class=\"nd-txt\">→ não pereça<br>→ tenha vida eterna · Jo 3:16</div></div>\n        <div class=\"nd\" style=\"top:70px;position:absolute;left:55%;width:230px\"><div class=\"nd-nome\" style=\"color:#bb4444\">Não crer</div><div class=\"nd-txt\">→ \"já está condenado\"<br>→ Jo 3:18</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 142-145",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1000px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1000 700\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 500 120 L 500 200\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar9)\" opacity=\"0.7\"/>\n        <path d=\"M 380 320 Q 240 355 170 410\" stroke=\"#42a86a\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar9)\" opacity=\"0.75\"/>\n        <path d=\"M 620 320 Q 760 355 830 410\" stroke=\"#bb4444\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar9)\" opacity=\"0.75\"/>\n        <path d=\"M 170 560 L 170 640\" stroke=\"#42a86a\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar9)\" opacity=\"0.65\" stroke-dasharray=\"4 4\"/>\n        <path d=\"M 830 560 L 830 640\" stroke=\"#bb4444\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar9)\" opacity=\"0.65\" stroke-dasharray=\"4 4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:700px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">João 3:16</div><div class=\"vcb-txt\">\"Porque Deus amou tanto ao mundo que ele deu o seu Filho unigênito, para que todo o que nele crê não pereça, mas tenha a vida eterna.\"</div></div>\n        <div class=\"ndb\" style=\"top:200px;left:50%;transform:translateX(-50%);width:300px;border-color:rgba(74,170,114,0.5)\"><div class=\"ndb-ic\">🕊️</div><div class=\"ndb-nm\">A Escolha</div><div class=\"ndb-tx\">Deus não força ninguém — amor coagido não é amor. Liberdade de escolha.</div></div>\n        <div class=\"rtl\" style=\"top:368px;left:8%\">vida</div>\n        <div class=\"rtl\" style=\"top:368px;left:74%\">morte</div>\n        <div class=\"ndb\" style=\"top:410px;left:3%;width:260px;border-color:rgba(60,160,100,0.5)\"><div class=\"ndb-ic\">✅</div><div class=\"ndb-nm\">Crer e Confessar</div><div class=\"ndb-tx\">\"Se confessares com a tua boca o Senhor Jesus, e creres em teu coração... serás salvo.\" — Rm 10:9</div></div>\n        <div class=\"ndb\" style=\"top:410px;left:60%;width:260px;border-color:rgba(180,60,60,0.5)\"><div class=\"ndb-ic\">❌</div><div class=\"ndb-nm\">Não Crer</div><div class=\"ndb-tx\">\"Quem não crê já está condenado, porque não creu no nome do unigênito Filho de Deus.\" — Jo 3:18</div></div>\n        <div class=\"vcb\" style=\"top:640px;left:3%;width:260px\"><div class=\"vcb-ref\">Efésios 2:8</div><div class=\"vcb-txt\">\"Porque pela graça sois salvos, mediante a fé; e isto não vem de vós, é dom de Deus.\"</div></div>\n        <div class=\"vcb\" style=\"top:640px;left:60%;width:260px\"><div class=\"vcb-ref\">Romanos 6:23</div><div class=\"vcb-txt\">\"O salário do pecado é a morte, mas o dom de Deus é a vida eterna, por Jesus Cristo.\"</div></div>\n        <div class=\"anot\" style=\"top:220px;right:20px;transform:rotate(-2deg);max-width:180px\">A voz tem poder — você foi feito à imagem de Deus, que fez todas as coisas falando</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 33-34",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Deus não força ninguém — amor coagido não é amor. O homem tem liberdade de escolha diante do evangelho.",
+          "_fonte": {
+            "arquivo": "Aula 1 anotações estruturadas.md",
+            "autor": "Pr. Ricardo",
+            "localizacao": "seção: A Queda e a Liberdade de Escolha"
+          }
+        },
+        {
+          "texto": "Quem crê em Cristo não perece, mas tem vida eterna; quem não crê já está condenado (Jo 3:16-18).",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Transformação na Nova Aliança"
+          }
+        },
+        {
+          "texto": "A voz tem poder — criados à imagem de Deus que criou pela fala, nossa concordância verbal com a Palavra de Deus é um ato de poder.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: O Poder da Palavra Falada"
+          }
+        }
+      ]
+    },
+    {
+      "id": "batismo",
+      "ordem": 12,
+      "tipo_no": "principal",
+      "nome_curto": "Batismo — Vida Nova",
+      "icone": "💧",
+      "referencia_curta": "Rm 6.3-4",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 145-147",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "titulo_painel": "Batismo — A Vida Nova",
+      "subtitulo_painel": "Morte ao velho, ressurreição ao novo — a nova criatura em Cristo",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: A Transformação na Nova Aliança"
+      },
+      "resumido_html": "<div style=\"max-width:700px;margin:0 auto;padding:10px 20px 30px\">\n    <div class=\"n1-2col\">\n      <div>\n        <div class=\"n1-col-t\" style=\"color:var(--o)\">Batismo nas Águas</div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\" style=\"filter:none\">💧</span><div class=\"n1-ci-nm\" style=\"color:var(--oc)\">Morte ao Velho</div><div class=\"n1-ci-desc\" style=\"color:var(--tx)\">Sepultado com Cristo — Rm 6:3-4</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\" style=\"filter:none\">🌅</span><div class=\"n1-ci-nm\" style=\"color:var(--oc)\">Ressurreição</div><div class=\"n1-ci-desc\" style=\"color:var(--tx)\">Andar em novidade de vida</div></div>\n      </div>\n      <div class=\"n1-div\"></div>\n      <div>\n        <div class=\"n1-col-t\" style=\"color:var(--o)\">Batismo no Espírito</div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\" style=\"filter:none\">🔥</span><div class=\"n1-ci-nm\" style=\"color:var(--oc)\">O Espírito vem</div><div class=\"n1-ci-desc\" style=\"color:var(--tx)\">Línguas e profecia — At 19:5-6</div></div>\n        <div class=\"n1-ci\"><span class=\"n1-ci-ic\" style=\"filter:none\">🌿</span><div class=\"n1-ci-nm\" style=\"color:var(--oc)\">Nova Criatura</div><div class=\"n1-ci-desc\" style=\"color:var(--tx)\">\"As coisas antigas passaram\" — 2Co 5:17</div></div>\n      </div>\n    </div>\n    <div class=\"n1-vfinal\"><div class=\"n1-vfinal-txt\">\"Se alguém está em Cristo, é nova criatura.\"</div><div class=\"n1-vfinal-ref\">2 Coríntios 5:17</div></div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 145-147",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1100px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1100 700\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar10\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#c9a227\"/></marker></defs>\n        <path d=\"M 280 110 L 280 190\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar10)\" opacity=\"0.7\"/>\n        <path d=\"M 820 110 L 820 190\" stroke=\"#c9a227\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar10)\" opacity=\"0.7\"/>\n        <path d=\"M 380 390 Q 500 430 550 490\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar10)\" opacity=\"0.8\"/>\n        <path d=\"M 720 390 Q 600 430 550 490\" stroke=\"#e8c547\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#ar10)\" opacity=\"0.8\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:700px\">\n        <div class=\"vcb\" style=\"top:0;left:3%;width:360px\"><div class=\"vcb-ref\">Romanos 6:3-4</div><div class=\"vcb-txt\">\"Fomos sepultados com ele para morte pelo batismo, para que... andemos em novidade de vida.\"</div></div>\n        <div class=\"vcb\" style=\"top:0;left:57%;width:360px\"><div class=\"vcb-ref\">Atos 19:5-6</div><div class=\"vcb-txt\">\"Tendo Paulo imposto-lhes as suas mãos, o Espírito Santo veio sobre eles; e eles falavam em línguas e profetizavam.\"</div></div>\n        <div class=\"ndb\" style=\"top:190px;left:3%;width:350px\"><div class=\"ndb-ic\">💧</div><div class=\"ndb-nm\">Batismo nas Águas</div><div class=\"ndb-tx\">Morte ao velho homem · ressurreição ao novo · declaração pública e espiritual</div></div>\n        <div class=\"ndb\" style=\"top:190px;left:57%;width:350px\"><div class=\"ndb-ic\">🔥</div><div class=\"ndb-nm\">Batismo no Espírito</div><div class=\"ndb-tx\">Capacitação para a vida cristã · presença do Espírito habitando no crente</div></div>\n        <div class=\"vcb\" style=\"top:490px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">2 Coríntios 5:17</div><div class=\"vcb-txt\">\"Se alguém está em Cristo, é nova criatura; as coisas antigas passaram; eis que tudo se fez novo.\"</div></div>\n        <div class=\"ndb\" style=\"top:620px;left:5%;width:310px\"><div class=\"ndb-ic\">⛪</div><div class=\"ndb-nm\">A Igreja Nasce — At 2</div><div class=\"ndb-tx\">A nação sobrenatural gerada pela Nova Aliança · não limitada a Israel</div></div>\n        <div class=\"cit-bl\" style=\"top:620px;right:5px;position:absolute;width:310px\"><p>\"Foi abrilhantado o propósito eterno com a nação da igreja.\"</p><span class=\"aut\">— Tia Mônica</span></div>\n        <div class=\"rtl\" style=\"top:448px;left:40%\">convergem em</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Transformação na Nova Aliança"
+        },
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Nação Sobrenatural Gerada pela Nova Aliança"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 35-36",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "O batismo nas águas é morte ao velho homem e ressurreição ao novo — declaração pública e espiritual (Rm 6:3-4).",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Transformação na Nova Aliança"
+          }
+        },
+        {
+          "texto": "O batismo no Espírito Santo capacita para a vida cristã, com a presença do Espírito habitando no crente (At 19:5-6).",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Igreja Primitiva e o Espírito Santo"
+          }
+        },
+        {
+          "texto": "A Igreja é a nação sobrenatural gerada pela Nova Aliança — não limitada a Israel.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Nação Sobrenatural Gerada pela Nova Aliança"
+          }
+        },
+        {
+          "texto": "\"Foi abrilhantado o propósito eterno com a nação da igreja.\"",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Nação Sobrenatural Gerada pela Nova Aliança"
+          },
+          "autor_fala": "Tia Mônica"
+        }
+      ]
+    },
+    {
+      "id": "vida-eterna",
+      "ordem": 13,
+      "tipo_no": "ramo_positivo",
+      "nome_curto": "Vida Eterna",
+      "icone": "🌳",
+      "referencia_curta": "1Jo 5.11-13",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 147-149",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "classe_no": "vi",
+      "titulo_painel": "Vida Eterna — A Consumação do Plano",
+      "subtitulo_painel": "O destino daqueles que escolhem a fé — reunião plena com Deus para sempre",
+      "_fonte_titulo": {
+        "arquivo": "Aula 3 anotação estruturada.md",
+        "autor": "Tia Mônica",
+        "localizacao": "seção: A Consumação no Apocalipse"
+      },
+      "resumido_html": "<div style=\"max-width:650px;margin:0 auto;padding:10px 20px 30px;text-align:center\">\n    <div style=\"margin:20px 0 30px\">\n      <div style=\"display:inline-block;padding:20px 28px;border:1px solid rgba(60,160,100,0.4);border-radius:2px;background:rgba(42,110,69,0.1);max-width:520px\">\n        <div style=\"font-size:1.05rem;color:var(--op);font-style:italic;line-height:1.6;font-weight:300\">\"Deus nos deu a vida eterna; e esta vida está em seu Filho. Aquele que tem o Filho tem a vida.\"</div>\n        <div style=\"font-family:'Cinzel',serif;font-size:0.67rem;color:var(--o);letter-spacing:0.2em;margin-top:10px\">1 João 5:11-12</div>\n      </div>\n    </div>\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 650 200\" preserveAspectRatio=\"none\">\n        <line x1=\"325\" y1=\"20\" x2=\"325\" y2=\"80\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:200px\">\n        <div class=\"vsc\" style=\"top:80px;position:absolute;left:50%;transform:translateX(-50%);width:500px\"><div class=\"vsc-txt\">\"Conhecereis e prosseguireis em conhecer o Senhor.\"</div><div class=\"vsc-ref\">Oseias 6:3 — o objetivo final do Plano de Redenção</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 147-149",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1000px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1000 720\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar11\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#42a86a\"/></marker></defs>\n        <path d=\"M 500 120 L 500 200\" stroke=\"#42a86a\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar11)\" opacity=\"0.7\"/>\n        <path d=\"M 380 320 Q 240 355 170 410\" stroke=\"#42a86a\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar11)\" opacity=\"0.65\"/>\n        <path d=\"M 620 320 Q 760 355 830 410\" stroke=\"#42a86a\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar11)\" opacity=\"0.65\"/>\n        <path d=\"M 170 560 Q 340 620 480 660\" stroke=\"#42a86a\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar11)\" opacity=\"0.55\" stroke-dasharray=\"4 4\"/>\n        <path d=\"M 830 560 Q 660 620 520 660\" stroke=\"#42a86a\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar11)\" opacity=\"0.55\" stroke-dasharray=\"4 4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:720px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:480px;border-color:#42a86a;box-shadow:0 0 28px rgba(60,160,100,0.15)\"><div class=\"vcb-ref\">1 João 5:11-12</div><div class=\"vcb-txt\">\"Deus nos deu a vida eterna; e esta vida está em seu Filho. Aquele que tem o Filho tem a vida.\"</div></div>\n        <div class=\"ndb\" style=\"top:200px;left:50%;transform:translateX(-50%);width:300px;border-color:rgba(60,160,100,0.5)\"><div class=\"ndb-ic\">🌳</div><div class=\"ndb-nm\">Vida Eterna</div><div class=\"ndb-tx\">Não apenas duração — qualidade de comunhão plena com Deus. Começa agora.</div></div>\n        <div class=\"ndb\" style=\"top:410px;left:3%;width:260px\"><div class=\"ndb-ic\">⏳</div><div class=\"ndb-nm\">A Consumação</div><div class=\"ndb-tx\">Segunda Vinda · Julgamento Final · Livro da Vida · Nova Criação · Nova Jerusalém</div></div>\n        <div class=\"ndb\" style=\"top:410px;left:60%;width:260px\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">Apocalipse</div><div class=\"ndb-tx\">Revelação — foi escrito por João em Patmos. Não especulação: <strong>preparação</strong>.</div></div>\n        <div class=\"vcb\" style=\"top:660px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">Oseias 6:3</div><div class=\"vcb-txt\">\"Conhecereis e prosseguireis em conhecer o Senhor.\" — Objetivo final: comunhão íntima e plena com Deus.</div></div>\n        <div class=\"anot\" style=\"top:320px;right:20px;transform:rotate(-2deg);max-width:180px\">\"Maranata — vem, Senhor Jesus!\" — Ap 22:20</div>\n        <div class=\"anot\" style=\"top:520px;left:20px;transform:rotate(2deg);max-width:170px\">Conhecer = intimidade — como o esposo que sabe o que se passa no coração da esposa</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "páginas 37-38",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "Vida eterna não é apenas duração — é qualidade de comunhão plena com Deus. Começa agora, na experiência presente com Cristo.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Consumação no Apocalipse"
+          }
+        },
+        {
+          "texto": "A consumação: Segunda Vinda de Cristo, Julgamento Final, Livro da Vida, Nova Criação, Nova Jerusalém.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Consumação no Apocalipse"
+          }
+        },
+        {
+          "texto": "O Apocalipse não é especulação — é preparação. Escrito por João em Patmos.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: A Consumação no Apocalipse"
+          }
+        },
+        {
+          "texto": "O objetivo final do plano de redenção: 'Conhecereis e prosseguireis em conhecer o Senhor' (Os 6:3) — comunhão íntima e plena com Deus.",
+          "_fonte": {
+            "arquivo": "Aula 3 anotação estruturada.md",
+            "autor": "Tia Mônica",
+            "localizacao": "seção: Vida no Espírito e o Conhecimento de Deus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "morte-eterna",
+      "ordem": 14,
+      "tipo_no": "ramo_negativo",
+      "nome_curto": "Morte Eterna",
+      "icone": "🔥",
+      "referencia_curta": "Jo 3.18 · Ap 20.15",
+      "_fonte_meta": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "Aula 1 anotações estruturadas.md",
+          "autor": "Pr. Ricardo",
+          "localizacao": "seção: A Missão do Cristão"
+        }
+      ],
+      "classe_no": "mo",
+      "titulo_painel": "Morte Eterna — A Separação Definitiva",
+      "subtitulo_painel": "A consequência de escolher permanecer separado de Deus, fonte de toda a vida",
+      "_fonte_titulo": {
+        "arquivo": "plano-redencao-v3.html",
+        "localizacao": "aba morte-eterna, nivel n2",
+        "autor": "Pr. Ricardo",
+        "pendente": true
+      },
+      "resumido_html": "<div style=\"max-width:650px;margin:0 auto;padding:10px 20px 30px;text-align:center\">\n    <div style=\"margin:20px 0 30px\">\n      <div style=\"display:inline-block;padding:20px 28px;border:1px solid rgba(180,60,60,0.4);border-radius:2px;background:rgba(107,26,26,0.12);max-width:520px\">\n        <div style=\"font-size:1.05rem;color:var(--op);font-style:italic;line-height:1.6;font-weight:300\">\"Quem não crê já está condenado, porque não creu no nome do unigênito Filho de Deus.\"</div>\n        <div style=\"font-family:'Cinzel',serif;font-size:0.67rem;color:var(--o);letter-spacing:0.2em;margin-top:10px\">João 3:18</div>\n      </div>\n    </div>\n    <div style=\"position:relative;height:220px\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 650 220\" preserveAspectRatio=\"none\">\n        <line x1=\"325\" y1=\"20\" x2=\"325\" y2=\"80\" stroke=\"#c9a227\" stroke-width=\"1\" opacity=\"0.4\"/>\n        <path d=\"M 325 160 Q 190 165 140 185\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n        <path d=\"M 325 160 Q 460 165 510 185\" stroke=\"#c9a227\" stroke-width=\"1\" fill=\"none\" opacity=\"0.35\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2\">\n        <div class=\"vsc\" style=\"top:80px;position:absolute;left:50%;transform:translateX(-50%);width:460px\"><div class=\"vsc-txt\">\"Todo aquele que não foi encontrado inscrito no livro da vida foi lançado no lago de fogo.\"</div><div class=\"vsc-ref\">Apocalipse 20:15</div></div>\n        <div class=\"nd\" style=\"top:185px;position:absolute;left:2%;width:200px\"><div class=\"nd-nome\" style=\"color:#bb4444\">Ap 20:15</div><div class=\"nd-txt\">O Livro da Vida — escolha permanente</div></div>\n        <div class=\"nd\" style=\"top:185px;position:absolute;left:54%;width:200px\"><div class=\"nd-nome\" style=\"color:#bb4444\">Rm 6:23</div><div class=\"nd-txt\">\"O salário do pecado é a morte\"</div></div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_resumido": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "slides 147-149",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "detalhado_html": "<div style=\"max-width:1000px;margin:0 auto;padding:10px 20px 20px\">\n    <div style=\"position:relative\">\n      <svg style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1\" viewBox=\"0 0 1000 680\" preserveAspectRatio=\"none\">\n        <defs><marker id=\"ar12\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#bb4444\"/></marker></defs>\n        <path d=\"M 500 120 L 500 200\" stroke=\"#bb4444\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar12)\" opacity=\"0.7\"/>\n        <path d=\"M 370 320 Q 230 355 160 400\" stroke=\"#bb4444\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar12)\" opacity=\"0.65\"/>\n        <path d=\"M 630 320 Q 770 355 840 400\" stroke=\"#bb4444\" stroke-width=\"1.8\" fill=\"none\" marker-end=\"url(#ar12)\" opacity=\"0.65\"/>\n        <path d=\"M 160 550 Q 340 610 480 650\" stroke=\"#c9a227\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar12)\" opacity=\"0.55\" stroke-dasharray=\"4 4\"/>\n        <path d=\"M 840 550 Q 660 610 520 650\" stroke=\"#c9a227\" stroke-width=\"1.5\" fill=\"none\" marker-end=\"url(#ar12)\" opacity=\"0.55\" stroke-dasharray=\"4 4\"/>\n      </svg>\n      <div style=\"position:relative;z-index:2;height:680px\">\n        <div class=\"vcb\" style=\"top:0;left:50%;transform:translateX(-50%);width:460px;border-color:#bb4444;box-shadow:0 0 28px rgba(180,60,60,0.15)\"><div class=\"vcb-ref\">João 3:18</div><div class=\"vcb-txt\">\"Quem não crê já está condenado, porque não creu no nome do unigênito Filho de Deus.\"</div></div>\n        <div class=\"ndb\" style=\"top:200px;left:50%;transform:translateX(-50%);width:300px;border-color:rgba(180,60,60,0.5)\"><div class=\"ndb-ic\">🔥</div><div class=\"ndb-nm\">Morte Eterna</div><div class=\"ndb-tx\">Não punição arbitrária — consequência de escolher permanecer separado da fonte da vida</div></div>\n        <div class=\"ndb\" style=\"top:400px;left:3%;width:255px;border-color:rgba(180,60,60,0.4)\"><div class=\"ndb-ic\">📖</div><div class=\"ndb-nm\">Ap 20:15 — O Livro</div><div class=\"ndb-tx\">\"Todo aquele que não foi encontrado inscrito no livro da vida foi lançado no lago de fogo.\"</div></div>\n        <div class=\"ndb\" style=\"top:400px;left:59%;width:255px\"><div class=\"ndb-ic\">⚖️</div><div class=\"ndb-nm\">Rm 6:23 — O Salário</div><div class=\"ndb-tx\">\"O salário do pecado é a morte, mas o dom de Deus é a vida eterna, por Jesus Cristo.\"</div></div>\n        <div class=\"vcb\" style=\"top:640px;left:50%;transform:translateX(-50%);width:480px\"><div class=\"vcb-ref\">Mateus 25:46</div><div class=\"vcb-txt\">\"E irão estes para o tormento eterno, mas os justos para a vida eterna.\" — Duas eternidades. Uma escolha.</div></div>\n        <div class=\"anot\" style=\"top:220px;right:20px;transform:rotate(-2deg);max-width:175px\">Não é Deus quem condena — é a escolha de cada pessoa que se torna permanente</div>\n      </div>\n    </div>\n  </div>",
+      "_fonte_detalhado": [
+        {
+          "arquivo": "Aula 3 anotação estruturada.md",
+          "autor": "Tia Mônica",
+          "localizacao": "seção: A Consumação no Apocalipse"
+        },
+        {
+          "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+          "localizacao": "página 37",
+          "autor": "Pr. Ricardo"
+        }
+      ],
+      "afirmacoes_chave": [
+        {
+          "texto": "A morte eterna não é punição arbitrária — é a consequência de escolher permanecer separado da fonte de toda a vida.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 37: Jo 3:18 · Ap 20:15",
+            "autor": "Pr. Ricardo",
+            "nota": "framing interpretativo presente no v3; base escritural em Jo 3:18 confirmada no PDF"
+          }
+        },
+        {
+          "texto": "Não é Deus quem condena — é a escolha de cada pessoa que se torna permanente diante de Deus.",
+          "_fonte": {
+            "arquivo": "4p_Plano_de_Redenc_a_o_2024.pdf",
+            "localizacao": "página 37: Jo 3:18-19 — 'a condenação é esta: Que a luz veio ao mundo, e os homens amaram mais as trevas'",
+            "autor": "Pr. Ricardo",
+            "nota": "síntese interpretativa; base em Jo 3:18-19 — a condenação é resultado da própria escolha"
+          }
+        }
+      ]
+    }
+  ]
+}
