@@ -397,8 +397,11 @@ footer { position:relative; z-index:5; text-align:center; padding:14px; border-t
 
 /* ── POLIMENTO 4.5 ──────────────────────────────────────────────────── */
 
-/* Scroll horizontal no conteúdo do painel (N2 canvas > 390px) */
-.painel-content { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* Painel: margens travadas — sem scroll lateral em canvas vazio */
+.painel-content { overflow-x: hidden; overscroll-behavior: none; }
+
+/* Scroll horizontal apenas quando o conteúdo JSON for mais largo que o painel */
+.painel-content > div { overflow-x: auto; overscroll-behavior-x: none; -webkit-overflow-scrolling: touch; }
 
 /* Safe area iPhone (notch / home indicator) */
 body {
@@ -417,7 +420,7 @@ header {
   .pw { padding: 0 12px 100px; }
   .painel { padding: 18px 14px; }
   .p-titulo { font-size: clamp(0.92rem, 3.5vw, 1.2rem); }
-  .painel-content { max-height: 65vh; overflow-y: auto; overflow-x: auto; }
+  .painel-content { max-height: 65vh; overflow-y: auto; overflow-x: hidden; }
 }
 
 /* Linha vertical: padding extra para safe area */
