@@ -73,98 +73,87 @@ function classeNo(est) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// LINHA HORIZONTAL (desktop / tablet / landscape)
+// GAVETA DE NAVEGAÇÃO
 // ═══════════════════════════════════════════════════════════════════════════
 
-function LinhaHorizontal({ estacoes, aberta, onSelect }) {
-  const main   = estacoes.slice(0, MAIN_COUNT)
-  const ramos  = estacoes.slice(MAIN_COUNT)          // vida-eterna, morte-eterna
-
-  return (
-    <div className="lw">
-      <div className="lc">
-        {main.map((est, i) => (
-          <span key={est.id} style={{ display: 'contents' }}>
-            <div
-              className={`no ${classeNo(est)} ${aberta === est.id ? 'ativo' : ''}`}
-              onClick={() => onSelect(est.id)}
-            >
-              <div className="no-c">{est.icone}</div>
-              <div className="no-lb">{est.nome_curto}</div>
-              <div className="no-rf">{est.referencia_curta}</div>
-            </div>
-            {i < main.length - 1 && <div className="con" />}
-          </span>
-        ))}
-
-        {/* Bifurcação */}
-        <div className="sf">⟶</div>
-
-        {ramos.map((est, i) => (
-          <span key={est.id} style={{ display: 'contents' }}>
-            <div
-              className={`no ${classeNo(est)} ${aberta === est.id ? 'ativo' : ''}`}
-              onClick={() => onSelect(est.id)}
-            >
-              <div className="no-c">{est.icone}</div>
-              <div className="no-lb">{est.nome_curto}</div>
-              <div className="no-rf">{est.referencia_curta}</div>
-            </div>
-            {i < ramos.length - 1 && <div className="con" />}
-          </span>
-        ))}
-      </div>
-    </div>
-  )
-}
-
-// ═══════════════════════════════════════════════════════════════════════════
-// LINHA VERTICAL (phone portrait)
-// ═══════════════════════════════════════════════════════════════════════════
-
-function LinhaVertical({ estacoes, aberta, onSelect }) {
+function GavetaNavegacao({ estacoes, aberta, onClose, onSelect }) {
   const main  = estacoes.slice(0, MAIN_COUNT)
   const ramos = estacoes.slice(MAIN_COUNT)
 
+  useEffect(() => {
+    if (!aberta) return
+    const handler = (e) => { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [aberta, onClose])
+
+  useEffect(() => {
+    document.body.style.overflow = aberta ? 'hidden' : ''
+    return () => { document.body.style.overflow = '' }
+  }, [aberta])
+
   return (
-    <div className="lv">
-      {main.map(est => (
-        <div
-          key={est.id}
-          className={`lv-item ${classeNo(est)} ${aberta === est.id ? 'ativo' : ''}`}
-          onClick={() => onSelect(est.id)}
-        >
-          <div className="lv-ic">{est.icone}</div>
-          <div className="lv-txt">
-            <div className="lv-nm">{est.nome_curto}</div>
-            <div className="lv-rf">{est.referencia_curta}</div>
-          </div>
-          <div className="lv-seta">›</div>
-        </div>
-      ))}
-
-      {/* Separador de bifurcação */}
-      <div className="lv-bif">
-        <div className="lv-bif-line" />
-        <div className="lv-bif-label">⟶ escolha</div>
-        <div className="lv-bif-line" style={{ background: 'linear-gradient(90deg, transparent, var(--o))' }} />
-      </div>
-
-      {ramos.map(est => (
-        <div
-          key={est.id}
-          className={`lv-item ${classeNo(est)} ${aberta === est.id ? 'ativo' : ''}`}
-          onClick={() => onSelect(est.id)}
-        >
-          <div className="lv-ic">{est.icone}</div>
-          <div className="lv-txt">
-            <div className="lv-nm">{est.nome_curto}</div>
-            <div className="lv-rf">{est.referencia_curta}</div>
-          </div>
-          <div className="lv-seta">›</div>
-        </div>
-      ))}
-    </div>
+    <AnimatePresence>
+      {aberta && (
+        <>
+          <motion.div
+            className="gav-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={onClose}
+          />
+          <motion.div
+            className="gav"
+            initial={{ x: '-100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '-100%' }}
+            transition={{ duration: 0.28, ease: 'easeOut' }}
+          >
+            <div className="gav-cab">
+              <div className="gav-titulo">Estações</div>
+              <button className="bf" onClick={onClose}>✕</button>
+            </div>
+            <div className="gav-lista">
+              {main.map(est => (
+                <div
+                  key={est.id}
+                  className={`lv-item ${classeNo(est)}`}
+                  onClick={() => onSelect(est.id)}
+                >
+                  <div className="lv-ic">{est.icone}</div>
+                  <div className="lv-txt">
+                    <div className="lv-nm">{est.nome_curto}</div>
+                    <div className="lv-rf">{est.referencia_curta}</div>
+                  </div>
+                  <div className="lv-seta">›</div>
+                </div>
+              ))}
+              <div className="lv-bif">
+                <div className="lv-bif-line" />
+                <div className="lv-bif-label">⟶ escolha</div>
+                <div className="lv-bif-line" style={{ background: 'linear-gradient(90deg, transparent, var(--o))' }} />
+              </div>
+              {ramos.map(est => (
+                <div
+                  key={est.id}
+                  className={`lv-item ${classeNo(est)}`}
+                  onClick={() => onSelect(est.id)}
+                >
+                  <div className="lv-ic">{est.icone}</div>
+                  <div className="lv-txt">
+                    <div className="lv-nm">{est.nome_curto}</div>
+                    <div className="lv-rf">{est.referencia_curta}</div>
+                  </div>
+                  <div className="lv-seta">›</div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
   )
 }
 
@@ -224,9 +213,12 @@ function PainelDetalhe({ estacao, mode, onModeChange, onClose }) {
 // BOTÕES FLUTUANTES
 // ═══════════════════════════════════════════════════════════════════════════
 
-function BotoesFlutuantes({ mode, onModeChange }) {
+function BotoesFlutuantes({ mode, onModeChange, onOpenNav }) {
   return (
     <div className="bfl">
+      <button className="bfl-item" onClick={onOpenNav}>
+        <span>☰</span> Estações
+      </button>
       <button
         className={`bfl-item ${mode === 'resumido' ? 'at' : ''}`}
         onClick={() => onModeChange('resumido')}
@@ -255,33 +247,12 @@ export default function App() {
   } = useViewMode()
 
   const [estacaoAberta, setEstacaoAberta] = useState(null)
-
-  // Detecta portrait em phone para decidir layout da linha
-  const [isPhonePortrait, setIsPhonePortrait] = useState(() => {
-    if (typeof window === 'undefined') return false
-    const phone = window.matchMedia('(max-width: 768px)').matches
-    const portrait = window.matchMedia('(orientation: portrait)').matches
-    return phone && portrait
-  })
-
-  useEffect(() => {
-    const phoneQ   = window.matchMedia('(max-width: 768px)')
-    const orientQ  = window.matchMedia('(orientation: portrait)')
-
-    const update = () => setIsPhonePortrait(phoneQ.matches && orientQ.matches)
-
-    phoneQ.addEventListener('change', update)
-    orientQ.addEventListener('change', update)
-    return () => {
-      phoneQ.removeEventListener('change', update)
-      orientQ.removeEventListener('change', update)
-    }
-  }, [])
+  const [gavetaAberta,  setGavetaAberta]  = useState(false)
 
   const handleSelectEstacao = (id) => {
-    clearPanelMode()                // novo painel herda modo global
+    clearPanelMode()
     setEstacaoAberta(id)
-    // Scroll suave para o painel
+    setGavetaAberta(false)
     setTimeout(() => {
       document.getElementById('painel-wrapper')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
     }, 80)
@@ -341,15 +312,6 @@ export default function App() {
         <span className="tg-hint">(fixar todas as abas)</span>
       </div>
 
-      {/* ── Instrução ── */}
-      <div className="instrucao">Clique em qualquer ponto da linha para explorar</div>
-
-      {/* ── Linha do tempo ── */}
-      {isPhonePortrait
-        ? <LinhaVertical   estacoes={estacoes} aberta={estacaoAberta} onSelect={handleSelectEstacao} />
-        : <LinhaHorizontal estacoes={estacoes} aberta={estacaoAberta} onSelect={handleSelectEstacao} />
-      }
-
       {/* ── Painel de detalhe ── */}
       <div id="painel-wrapper">
         <AnimatePresence mode="wait">
@@ -369,15 +331,27 @@ export default function App() {
             <div className="painel">
               <div className="placeholder" id="ph">
                 <div className="ph-ic">✦</div>
-                <div className="ph-tx">Selecione um ponto da linha</div>
+                <div className="ph-tx">Selecione uma estação</div>
               </div>
             </div>
           </div>
         )}
       </div>
 
+      {/* ── Gaveta de navegação ── */}
+      <GavetaNavegacao
+        estacoes={estacoes}
+        aberta={gavetaAberta}
+        onClose={() => setGavetaAberta(false)}
+        onSelect={handleSelectEstacao}
+      />
+
       {/* ── Botões flutuantes ── */}
-      <BotoesFlutuantes mode={effectiveMode} onModeChange={setGlobalMode} />
+      <BotoesFlutuantes
+        mode={effectiveMode}
+        onModeChange={setGlobalMode}
+        onOpenNav={() => setGavetaAberta(true)}
+      />
 
       {/* ── Footer ── */}
       <footer>Plano de Redenção · Pastor Ricardo · Baseado exclusivamente no material do curso</footer>
