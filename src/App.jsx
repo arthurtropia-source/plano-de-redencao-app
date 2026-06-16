@@ -1,238 +1,48 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import CoursePicker from './components/CoursePicker.jsx'
+import CursoLeitura from './components/CursoLeitura.jsx'
 
 // ═══════════════════════════════════════════════════════════════════════════
-// HOOKS
+// HOOKS DE DADOS
 // ═══════════════════════════════════════════════════════════════════════════
 
-function useTimelineData() {
-  const [estacoes, setEstacoes] = useState([])
-  const [loading, setLoading]   = useState(true)
-  const [error, setError]       = useState(null)
-
+function useCoursesManifest() {
+  const [manifest, setManifest] = useState(null)
+  const [error, setError] = useState(null)
   useEffect(() => {
-    fetch('/data/timeline.json')
-      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
-      .then(d => { setEstacoes(d.estacoes); setLoading(false) })
-      .catch(e => { setError(e.message); setLoading(false) })
+    fetch('/data/courses.json')
+      .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
+      .then(setManifest)
+      .catch((e) => setError(e.message))
   }, [])
-
-  return { estacoes, loading, error }
+  return { manifest, error }
 }
 
-function useViewMode() {
-  const [globalMode, setGlobalModeState] = useState('resumido')
-  const [panelMode,  setPanelMode]       = useState(null)   // override local do painel
-  const manualRef = useRef(false)
+// lazy-fetch: só busca o JSON da aula quando ela é aberta
+function useCourse(id, cursos) {
+  const [course, setCourse] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
-    const isPhone = window.matchMedia('(max-width: 768px)').matches
-    if (!isPhone) return
+    if (!id || !cursos) { setCourse(null); return }
+    const meta = cursos.find((c) => c.id === id)
+    if (!meta) { setCourse(null); setError('Aula não encontrada'); return }
+    setLoading(true); setError(null); setCourse(null)
+    fetch(`/data/courses/${meta.arquivo}`)
+      .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
+      .then((d) => { setCourse(d); setLoading(false) })
+      .catch((e) => { setError(e.message); setLoading(false) })
+  }, [id, cursos])
 
-    const mq = window.matchMedia('(orientation: landscape)')
-
-    const handler = (e) => {
-      // Girar o telefone sempre limpa o override manual
-      manualRef.current = false
-      setPanelMode(null)
-      setGlobalModeState(e.matches ? 'detalhado' : 'resumido')
-    }
-
-    setGlobalModeState(mq.matches ? 'detalhado' : 'resumido')
-    mq.addEventListener('change', handler)
-    return () => mq.removeEventListener('change', handler)
-  }, [])
-
-  const setGlobalMode = (newMode) => {
-    manualRef.current = true
-    setGlobalModeState(newMode)
-    setPanelMode(null)   // toggle global sobrepõe override do painel
-  }
-
-  const setLocalPanelMode = (newMode) => {
-    manualRef.current = true
-    setPanelMode(newMode)
-  }
-
-  const clearPanelMode = () => setPanelMode(null)
-
-  const effectiveMode = panelMode ?? globalMode
-
-  return { effectiveMode, globalMode, setGlobalMode, setLocalPanelMode, clearPanelMode }
+  return { course, loading, error }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// HELPERS
-// ═══════════════════════════════════════════════════════════════════════════
-
-const MAIN_COUNT = 12   // criacao…batismo
-const CLASSE_MAP = { q: 'q', es: 'es', vi: 'vi', mo: 'mo' }
-
-function classeNo(est) {
-  return est.classe_no ? CLASSE_MAP[est.classe_no] || '' : ''
-}
-
-// ═══════════════════════════════════════════════════════════════════════════
-// GAVETA DE NAVEGAÇÃO
-// ═══════════════════════════════════════════════════════════════════════════
-
-function GavetaNavegacao({ estacoes, aberta, onClose, onSelect }) {
-  const main  = estacoes.slice(0, MAIN_COUNT)
-  const ramos = estacoes.slice(MAIN_COUNT)
-
-  useEffect(() => {
-    if (!aberta) return
-    const handler = (e) => { if (e.key === 'Escape') onClose() }
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
-  }, [aberta, onClose])
-
-  useEffect(() => {
-    document.body.style.overflow = aberta ? 'hidden' : ''
-    return () => { document.body.style.overflow = '' }
-  }, [aberta])
-
-  return (
-    <AnimatePresence>
-      {aberta && (
-        <>
-          <motion.div
-            className="gav-overlay"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            onClick={onClose}
-          />
-          <motion.div
-            className="gav"
-            initial={{ x: '-100%' }}
-            animate={{ x: 0 }}
-            exit={{ x: '-100%' }}
-            transition={{ duration: 0.28, ease: 'easeOut' }}
-          >
-            <div className="gav-cab">
-              <div className="gav-titulo">Estações</div>
-              <button className="bf" onClick={onClose}>✕</button>
-            </div>
-            <div className="gav-lista">
-              {main.map(est => (
-                <div
-                  key={est.id}
-                  className={`lv-item ${classeNo(est)}`}
-                  onClick={() => onSelect(est.id)}
-                >
-                  <div className="lv-ic">{est.icone}</div>
-                  <div className="lv-txt">
-                    <div className="lv-nm">{est.nome_curto}</div>
-                    <div className="lv-rf">{est.referencia_curta}</div>
-                  </div>
-                  <div className="lv-seta">›</div>
-                </div>
-              ))}
-              <div className="lv-bif">
-                <div className="lv-bif-line" />
-                <div className="lv-bif-label">⟶ escolha</div>
-                <div className="lv-bif-line" style={{ background: 'linear-gradient(90deg, transparent, var(--o))' }} />
-              </div>
-              {ramos.map(est => (
-                <div
-                  key={est.id}
-                  className={`lv-item ${classeNo(est)}`}
-                  onClick={() => onSelect(est.id)}
-                >
-                  <div className="lv-ic">{est.icone}</div>
-                  <div className="lv-txt">
-                    <div className="lv-nm">{est.nome_curto}</div>
-                    <div className="lv-rf">{est.referencia_curta}</div>
-                  </div>
-                  <div className="lv-seta">›</div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        </>
-      )}
-    </AnimatePresence>
-  )
-}
-
-// ═══════════════════════════════════════════════════════════════════════════
-// PAINEL DE DETALHE
-// ═══════════════════════════════════════════════════════════════════════════
-
-function PainelDetalhe({ estacao, mode, onModeChange, onClose }) {
-  const isDetalhado = mode === 'detalhado'
-  const html        = isDetalhado ? estacao.detalhado_html : estacao.resumido_html
-  const contentRef  = useRef(null)
-
-  // Scroll para o topo do conteúdo ao mudar de modo ou de estação
-  useEffect(() => {
-    contentRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
-  }, [estacao.id, mode])
-
-  return (
-    <motion.div
-      className="pw"
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 10 }}
-      transition={{ duration: 0.28, ease: 'easeOut' }}
-    >
-      <div className="painel">
-        <div className="p-cabec">
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div className="p-titulo">{estacao.titulo_painel}</div>
-            <div className="p-sub">{estacao.subtitulo_painel}</div>
-          </div>
-          <div className="p-dir">
-            <button
-              className={`bn ${!isDetalhado ? 'at' : ''}`}
-              onClick={() => onModeChange('resumido')}
-            >
-              Resumido
-            </button>
-            <button
-              className={`bn ${isDetalhado ? 'at' : ''}`}
-              onClick={() => onModeChange('detalhado')}
-            >
-              Detalhado
-            </button>
-            <button className="bf" onClick={onClose}>✕</button>
-          </div>
-        </div>
-
-        {/* Conteúdo HTML do JSON — classes v3 aplicadas via v3-classes.css */}
-        <div ref={contentRef} className="painel-content" dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
-    </motion.div>
-  )
-}
-
-// ═══════════════════════════════════════════════════════════════════════════
-// BOTÕES FLUTUANTES
-// ═══════════════════════════════════════════════════════════════════════════
-
-function BotoesFlutuantes({ mode, onModeChange, onOpenNav }) {
-  return (
-    <div className="bfl">
-      <button className="bfl-item" onClick={onOpenNav}>
-        <span>☰</span> Estações
-      </button>
-      <button
-        className={`bfl-item ${mode === 'resumido' ? 'at' : ''}`}
-        onClick={() => onModeChange('resumido')}
-      >
-        <span>◈</span> Resumido
-      </button>
-      <button
-        className={`bfl-item ${mode === 'detalhado' ? 'at' : ''}`}
-        onClick={() => onModeChange('detalhado')}
-      >
-        <span>◉</span> Detalhado
-      </button>
-    </div>
-  )
+// ── rota por hash (sem react-router): #/curso/<id> ──────────────────────────
+function parseHash() {
+  const m = window.location.hash.match(/^#\/curso\/(.+)$/)
+  return m ? decodeURIComponent(m[1]) : null
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -240,121 +50,68 @@ function BotoesFlutuantes({ mode, onModeChange, onOpenNav }) {
 // ═══════════════════════════════════════════════════════════════════════════
 
 export default function App() {
-  const { estacoes, loading, error } = useTimelineData()
-  const {
-    effectiveMode, globalMode,
-    setGlobalMode, setLocalPanelMode, clearPanelMode
-  } = useViewMode()
+  const { manifest, error: manifestError } = useCoursesManifest()
+  const [cursoAberto, setCursoAberto] = useState(() => parseHash())
 
-  const [estacaoAberta, setEstacaoAberta] = useState(null)
-  const [gavetaAberta,  setGavetaAberta]  = useState(false)
+  useEffect(() => {
+    const on = () => setCursoAberto(parseHash())
+    window.addEventListener('hashchange', on)
+    return () => window.removeEventListener('hashchange', on)
+  }, [])
 
-  const handleSelectEstacao = (id) => {
-    clearPanelMode()
-    setEstacaoAberta(id)
-    setGavetaAberta(false)
-    setTimeout(() => {
-      document.getElementById('painel-wrapper')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-    }, 80)
-  }
+  useEffect(() => { window.scrollTo(0, 0) }, [cursoAberto])
 
-  const handleClosePanel = () => {
-    setEstacaoAberta(null)
-    clearPanelMode()
-  }
+  const abrir = (id) => { window.location.hash = id ? `#/curso/${id}` : '' }
 
-  const estacaoAtiva = estacoes.find(e => e.id === estacaoAberta)
+  const cursos = manifest?.cursos
+  const { course, loading, error } = useCourse(cursoAberto, cursos)
 
-  if (loading) return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="placeholder">
-        <div className="ph-ic">✦</div>
-        <div className="ph-tx">Carregando...</div>
-      </div>
-    </div>
+  if (manifestError) return (
+    <div className="app-loading"><div><span className="ic">⚠</span>Não foi possível carregar as aulas: {manifestError}</div></div>
+  )
+  if (!manifest) return (
+    <div className="app-loading"><div><span className="ic">✦</span>Carregando…</div></div>
   )
 
-  if (error) return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="placeholder">
-        <div className="ph-ic">⚠</div>
-        <div className="ph-tx">Erro: {error}</div>
-      </div>
-    </div>
-  )
+  const existe = cursoAberto && cursos.some((c) => c.id === cursoAberto)
 
   return (
-    <>
-      {/* ── Header ── */}
-      <header>
-        <div className="t-principal">Plano de Redenção</div>
-        <div className="orn">
-          <div className="orn-l" />
-          <div className="orn-s">✦</div>
-          <div className="orn-l" />
-        </div>
-        <div className="t-sub">De Gênesis ao Apocalipse · Pastor Ricardo</div>
-      </header>
-
-      {/* ── Toggle global ── */}
-      <div className="tg-bar">
-        <span className="tg-label">Resumido</span>
-        <label className="tg-sw">
-          <input
-            type="checkbox"
-            checked={globalMode === 'detalhado'}
-            onChange={e => setGlobalMode(e.target.checked ? 'detalhado' : 'resumido')}
+    <AnimatePresence mode="wait">
+      {!existe ? (
+        <motion.div
+          key="home"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.25 }}
+        >
+          <CoursePicker
+            cursos={cursos}
+            onSelect={abrir}
+            appNome={manifest.app?.nome}
+            appSub={manifest.app?.subtitulo}
           />
-          <div className="tg-track" />
-          <div className="tg-thumb" />
-        </label>
-        <span className="tg-label">Detalhado</span>
-        <span className="tg-hint">(fixar todas as abas)</span>
-      </div>
-
-      {/* ── Painel de detalhe ── */}
-      <div id="painel-wrapper">
-        <AnimatePresence mode="wait">
-          {estacaoAtiva && (
-            <PainelDetalhe
-              key={estacaoAtiva.id}
-              estacao={estacaoAtiva}
-              mode={effectiveMode}
-              onModeChange={setLocalPanelMode}
-              onClose={handleClosePanel}
-            />
+        </motion.div>
+      ) : (
+        <motion.div
+          key={cursoAberto}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.25 }}
+        >
+          <button type="button" className="voltar-aulas" onClick={() => abrir(null)}>
+            ‹ Aulas
+          </button>
+          {loading && (
+            <div className="app-loading"><div><span className="ic">✦</span>Carregando aula…</div></div>
           )}
-        </AnimatePresence>
-
-        {!estacaoAtiva && (
-          <div className="pw">
-            <div className="painel">
-              <div className="placeholder" id="ph">
-                <div className="ph-ic">✦</div>
-                <div className="ph-tx">Selecione uma estação</div>
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* ── Gaveta de navegação ── */}
-      <GavetaNavegacao
-        estacoes={estacoes}
-        aberta={gavetaAberta}
-        onClose={() => setGavetaAberta(false)}
-        onSelect={handleSelectEstacao}
-      />
-
-      {/* ── Botões flutuantes ── */}
-      <BotoesFlutuantes
-        mode={effectiveMode}
-        onModeChange={setGlobalMode}
-        onOpenNav={() => setGavetaAberta(true)}
-      />
-
-      {/* ── Footer ── */}
-      <footer>Plano de Redenção · Pastor Ricardo · Baseado exclusivamente no material do curso</footer>
-    </>
+          {error && (
+            <div className="app-loading"><div><span className="ic">⚠</span>Erro: {error}</div></div>
+          )}
+          {course && <CursoLeitura course={course} />}
+        </motion.div>
+      )}
+    </AnimatePresence>
   )
 }

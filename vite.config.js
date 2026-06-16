@@ -12,11 +12,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/**/*'],
       manifest: {
-        name: 'Plano de Redenção',
-        short_name: 'Redenção',
-        description: 'Plano de Redenção — estudo visual baseado no curso do Pr. Ricardo',
-        theme_color: '#1a3a2a',
-        background_color: '#1a3a2a',
+        name: 'Cátedra — Estudos',
+        short_name: 'Cátedra',
+        description: 'Coleção de aulas de estudo — leitura contínua com aprofundamento.',
+        theme_color: '#0e1414',
+        background_color: '#0e1414',
         display: 'standalone',
         orientation: 'any',
         start_url: '/',
@@ -42,13 +42,23 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            // network-first para o JSON (pode ser atualizado a qualquer momento)
-            urlPattern: /\/data\/timeline\.json$/,
+            // network-first para o manifesto de aulas
+            urlPattern: /\/data\/courses\.json$/,
             handler: 'NetworkFirst',
             options: {
-              cacheName: 'timeline-data',
+              cacheName: 'courses-manifest',
               networkTimeoutSeconds: 5,
               expiration: { maxEntries: 1, maxAgeSeconds: 86400 }
+            }
+          },
+          {
+            // network-first para o JSON de cada aula
+            urlPattern: /\/data\/courses\/.*\.json$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'courses-data',
+              networkTimeoutSeconds: 5,
+              expiration: { maxEntries: 20, maxAgeSeconds: 86400 }
             }
           },
           {
