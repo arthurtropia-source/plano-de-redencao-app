@@ -547,6 +547,18 @@
 .curso-redencao .footer-logo{font-family:'Cinzel',serif;font-size:0.7rem;font-weight:600;color:var(--o);letter-spacing:0.2em;text-transform:uppercase;margin-bottom:14px;}
 .curso-redencao .footer-note{font-family:'Crimson Pro',serif;font-size:0.8rem;color:rgba(201,162,39,0.4);line-height:1.6;max-width:540px;margin:0 auto;font-style:italic;}
 
+/* cadeia de progressão (ex.: progressão do templo, aliança crescente) */
+.curso-redencao .rd-chain{display:flex;flex-wrap:wrap;align-items:center;gap:8px 4px;margin:26px 0;justify-content:center;}
+.curso-redencao .rd-chain-node{background:rgba(20,45,30,0.85);border:1px solid var(--bd);border-radius:3px;padding:8px 14px;font-family:'Cinzel',serif;font-size:0.7rem;font-weight:600;color:var(--op);letter-spacing:0.06em;text-align:center;}
+.curso-redencao .rd-chain-node.fim{border-color:var(--o);background:rgba(201,162,39,0.12);color:var(--oc);box-shadow:0 0 18px rgba(201,162,39,0.18);}
+.curso-redencao .rd-chain-arrow{color:var(--o);font-size:1rem;opacity:0.7;}
+
+/* versículo-âncora centralizado (sem caixa) */
+.curso-redencao .rd-verse{text-align:center;max-width:560px;margin:28px auto;}
+.curso-redencao .rd-verse-txt{font-size:1.1rem;color:var(--op);font-style:italic;line-height:1.6;}
+.curso-redencao .rd-verse-txt::before,.curso-redencao .rd-verse-txt::after{content:'';display:block;width:55px;height:1px;background:var(--o);margin:14px auto;opacity:0.5;}
+.curso-redencao .rd-verse-ref{font-family:'Cinzel',serif;font-size:0.66rem;color:var(--o);letter-spacing:0.2em;margin-top:8px;}
+
 @media(max-width:700px){
   .curso-redencao .section{padding:48px 0;}
   .curso-redencao .container{padding:0 16px;}
