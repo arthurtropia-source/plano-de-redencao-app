@@ -1,0 +1,182 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   leitura.css — SHELL do app (neutro, sem tema de aula).
+   Cobre: tela inicial de seleção de aulas (.app-home), botão "voltar",
+   wrapper base da leitura e estados de carregamento.
+   Os temas de cada aula (osio.css / redencao.css) cuidam do conteúdo.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --home-bg: #0e1414;
+  --home-gold: #c9a227;
+  --home-gold-light: #e8c547;
+  --home-ink: #e8dfc8;
+  --home-stone: #8a8270;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--home-bg);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── TELA INICIAL ─────────────────────────────────────────────────────── */
+.app-home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: max(48px, calc(env(safe-area-inset-top, 0px) + 36px)) 22px
+           max(40px, calc(env(safe-area-inset-bottom, 0px) + 24px));
+  color: var(--home-ink);
+  font-family: 'Crimson Pro', Georgia, serif;
+  background:
+    radial-gradient(ellipse 70% 40% at 50% 0%, rgba(201, 162, 39, 0.10) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(107, 26, 26, 0.10) 0%, transparent 65%),
+    var(--home-bg);
+}
+
+.home-cab { text-align: center; margin: 24px 0 44px; }
+.home-titulo {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.5rem, 5vw, 2.4rem);
+  color: var(--home-gold);
+  letter-spacing: 0.18em;
+  text-shadow: 0 0 30px rgba(201, 162, 39, 0.35);
+}
+.home-orn { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 12px 0; }
+.home-orn-l { height: 1px; width: 64px; background: linear-gradient(90deg, transparent, var(--home-gold), transparent); }
+.home-orn-s { color: var(--home-gold); font-size: 0.9rem; }
+.home-sub {
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  color: var(--home-stone);
+  font-style: italic;
+  letter-spacing: 0.08em;
+}
+
+/* ── CARDS DE AULA ────────────────────────────────────────────────────── */
+.home-grid {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.curso-card {
+  --card-cor: var(--home-gold);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 20px 22px;
+  border: 1px solid rgba(201, 162, 39, 0.32);
+  border-left: 3px solid var(--card-cor);
+  border-radius: 4px;
+  background: linear-gradient(135deg, rgba(22, 32, 28, 0.92) 0%, rgba(14, 22, 19, 0.96) 100%);
+  color: var(--home-ink);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.18s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  font-family: inherit;
+}
+.curso-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--card-cor);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55), 0 0 20px rgba(201, 162, 39, 0.12);
+}
+.curso-card-ic {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 2px solid var(--card-cor);
+  background: rgba(0, 0, 0, 0.25);
+}
+.curso-card-txt { flex: 1; min-width: 0; }
+.curso-card-titulo {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--home-gold-light);
+  letter-spacing: 0.06em;
+}
+.curso-card-sub { font-size: 0.92rem; color: var(--home-ink); font-style: italic; margin-top: 3px; }
+.curso-card-periodo {
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  color: var(--home-stone);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.curso-card-seta { flex-shrink: 0; font-size: 1.3rem; color: rgba(201, 162, 39, 0.4); }
+
+.home-rodape {
+  margin-top: 48px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(201, 162, 39, 0.3);
+}
+
+/* ── BOTÃO VOLTAR (sobre a leitura) ───────────────────────────────────── */
+.voltar-aulas {
+  position: fixed;
+  top: max(14px, calc(env(safe-area-inset-top, 0px) + 8px));
+  left: max(14px, env(safe-area-inset-left, 14px));
+  z-index: 300;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', 'Cinzel', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f5e9c8;
+  background: rgba(14, 22, 30, 0.86);
+  border: 1px solid rgba(201, 162, 39, 0.5);
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.voltar-aulas:hover { background: rgba(24, 36, 48, 0.96); border-color: var(--home-gold); }
+
+/* ── WRAPPER BASE DA LEITURA ──────────────────────────────────────────── */
+.curso-leitura { min-height: 100vh; position: relative; }
+/* compensa a nav fixa ao pular para uma âncora */
+.curso-leitura section[id] { scroll-margin-top: 64px; }
+
+/* ── CARREGAMENTO / ERRO ──────────────────────────────────────────────── */
+.app-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--home-bg);
+  color: rgba(201, 162, 39, 0.6);
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  text-align: center;
+  padding: 24px;
+}
+.app-loading .ic { font-size: 2.4rem; display: block; margin-bottom: 12px; opacity: 0.5; }

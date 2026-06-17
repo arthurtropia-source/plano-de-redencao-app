@@ -1,0 +1,26 @@
+{
+  "app": {
+    "nome": "Cátedra",
+    "subtitulo": "Estudos — uma aula por vez"
+  },
+  "cursos": [
+    {
+      "id": "redencao",
+      "titulo": "Plano de Redenção",
+      "subtitulo": "De Gênesis ao Apocalipse",
+      "periodo": "Pr. Ricardo · Tia Mônica",
+      "tema": "redencao",
+      "arquivo": "redencao.json",
+      "capa": { "icone": "✝️", "cor": "#c9a227" }
+    },
+    {
+      "id": "osio",
+      "titulo": "Ósio de Córdoba",
+      "subtitulo": "A Forja de uma Consciência",
+      "periodo": "c. 256 – 358 d.C.",
+      "tema": "osio",
+      "arquivo": "osio.json",
+      "capa": { "icone": "⛪", "cor": "#C9973A" }
+    }
+  ]
+}

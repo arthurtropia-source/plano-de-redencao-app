@@ -1,6 +1,15 @@
-# Plano de Redenção — PWA
+# Cátedra — coleção de aulas de estudo (PWA)
 
-Leitor visual interativo do Plano de Redenção, baseado no curso do Pr. Ricardo.
+Leitor de aulas em formato de leitura contínua, com aprofundamento sob demanda
+("Aprofundar ▼"). Cada aula tem seu próprio tema visual.
+
+> "Cátedra" é um nome placeholder, trocável em `public/data/courses.json`
+> (`app.nome`), `index.html` e `vite.config.js`.
+
+## Aulas
+
+- **Plano de Redenção** — 14 estações, de Gênesis ao Apocalipse (Pr. Ricardo · Tia Mônica).
+- **Ósio de Córdoba** — exposição histórica do cristianismo primitivo.
 
 ## Stack
 
@@ -16,17 +25,18 @@ npm run build     # build de produção em /dist
 
 ## Deploy
 
-GitHub (privado) → Vercel (deploy automático a cada push na `main`).
+GitHub (privado) → Vercel (deploy automático a cada push).
 
-## JSON canônico
+## Conteúdo
 
-`public/data/timeline.json` — 14 estações do Plano de Redenção com conteúdo HTML e campo `_fonte` rastreável em cada afirmação.
+- `public/data/courses.json` — manifesto (lista de aulas).
+- `public/data/courses/<aula>.json` — conteúdo de cada aula (seções com `body_html`/`expand_html` e campo `_fonte` rastreável).
+- `data-source/timeline.json` — fonte histórica da aula de Redenção (não servida).
 
-**Fluxo de atualização:** Arthur fala com Claude → Claude edita `timeline.json` → commit + push → Vercel atualiza em <2 min → Arthur recarrega o app.
+**Fluxo de atualização:** Arthur fala com Claude → Claude edita o JSON da aula
+→ commit + push → Vercel atualiza → Arthur recarrega o app.
 
-## Referência visual
-
-`plano-redencao-v3.html` (na pasta do projeto, fora do repositório) é o artefato visual original. Para qualquer dúvida de "como deve ficar visualmente", abrir o v3 no navegador.
+Detalhes de arquitetura e regras em `CLAUDE.md`.
 
 ## URL de produção
 
