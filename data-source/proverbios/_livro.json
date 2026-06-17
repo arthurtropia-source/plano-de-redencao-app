@@ -1,23 +1,124 @@
 {
-  "versao": "1.0",
+  "versao": "1.1",
   "ultima_atualizacao": "2026-06-17",
   "historico_mudancas": [
     {
       "data": "2026-06-17",
-      "descricao": "Scaffolding inicial do catálogo de Provérbios (esquema + abreviações da Bíblia de Estudo Holman). Introdução, cronologia, artigos e capítulos ainda vazios — aguardando fotos das páginas.",
+      "descricao": "Scaffolding inicial do catálogo de Provérbios (esquema + abreviações da Bíblia de Estudo Holman).",
+      "autor": "Claude/Arthur"
+    },
+    {
+      "data": "2026-06-17",
+      "descricao": "Catalogação da parte introdutória: texto da introdução (O que é um provérbio, Autor, Contexto Histórico, Mensagem e Propósito, Estrutura), esboço estruturado e cronologia. Tabela de Temas em _indice_tematico.json. Capítulos ainda não enviados.",
       "autor": "Claude/Arthur"
     }
   ],
   "livro": "Provérbios",
   "introducao": {
-    "autor": "",
-    "contexto_historico": "",
-    "mensagem_proposito": "",
-    "contribuicao_biblia": "",
-    "estrutura_esboco": "",
-    "_fonte": null
+    "o_que_e_proverbio": "O que é um provérbio? Um provérbio secular procura exprimir uma verdade geral (não absoluta), como \"um tolo e seu dinheiro logo se separam\". Normalmente, é conciso, ou seja, é breve mas rico de significado: \"Sem luta não há lucro\". Um provérbio é prático; oferece um conselho útil no mundo real: \"É melhor prevenir do que remediar\". É para ser aplicado; o leitor deve considerar as mudanças que precisa fazer em sua vida à luz do provérbio: \"A educação começa em casa\". Um provérbio é derivado de observações perspicazes a respeito do funcionamento normal da vida; a pessoa que cria um provérbio revela-se muito inteligente e perceptiva, capaz de ver aquilo que geralmente é verdade e tirar conclusões acerca disso: \"A caneta é mais poderosa do que a espada\".\n\nAlém disso, os provérbios no livro de Provérbios são também divinamente inspirados. Uma vez que procedem de Deus, sabemos que eles são verdadeiros e podemos estar certos de que são benéficos: \"Aquele que lida sabiamente com um assunto encontrará o bem, e o que confiar no Senhor, feliz é ele\" (16:20). Os provérbios bíblicos não somente oferece conselho prático para a vida presente, mas também guiam o leitor para a vida eterna: \"Para o sábio, o caminho da vida é para cima, para que ele se desvie do inferno que está embaixo\" (15:24).",
+    "citacao_destaque": {
+      "texto": "A sabedoria clama lá fora; ela levanta sua voz nas ruas. Ela clama no principal lugar da multidão, nas entradas dos portões; e na cidade ela clama suas palavras, dizendo: Por quanto tempo, ó simples, amareis a simplicidade?",
+      "referencia": "1:20-22a"
+    },
+    "autor": "A Salomão são atribuídos os provérbios nos capítulos 1–29 do livro de Provérbios (1:1; 10:1). Há evidência bíblica de que Salomão era sábio e um colecionador de ditados sábios (1Rs 3:5-14; 4:29-34; 5:7,12; 10:2-3,23-24; 11:41). Os capítulos 1–24 podem ter sido escritos durante o seu reinado, 970–931 a.C. Os provérbios nos capítulos 25–29 são provérbios de Salomão compilados pelo rei Ezequias, que reinou de 716 a 687 a.C. (25:1). Os último dois capítulos são atribuídos a Agur e Lemuel (30:1; 31:1), a respeito de quem nada mais é conhecido. Um editor foi inspirado a reunir os provérbios de Salomão, Agur e Lemuel no livro que hoje possuímos.",
+    "contexto_historico": "O reinado de Salomão representou o auge da prosperidade para a nação de Israel. Esse período testemunhou a maior extensão do território, e havia paz e comércio internacional (1Rs 4:20-25; 10:21-29). É provável que Salomão tivesse conhecimento a respeito da antiga tradição de sabedoria no Egito (1Rs 3:1), mas por inspiração e dom de Deus ele compôs ditados ainda melhores (1Rs 3:12; 10:6-7,23). Salomão endereçou seu ensino a seu filho, ou a seus filhos, mas esses inspirados ditados sábios são aplicáveis a todas as pessoas. O livro de Provérbios, como o restante da Bíblia, contém histórias, ensinos e exemplos. As pessoas devem fazer uma aplicação apropriada dessas verdades à sua própria situação (1Co 10:11).",
+    "mensagem_proposito": "Visto que esses provérbios se encontram na Bíblia, eles não são mero entretenimento; mas exortam, encorajam e oferecem esperança. Salomão chama os leitores, em especial os jovens, para procurar a sabedoria em vez da insensatez. Ele encoraja os inexperientes a se tornarem sábios em vez de zombadores, a serem receptivos ao ensino em vez de incorrigíveis, a viverem ao invés de morrerem. Ele prediz que as pessoas que procuram a sabedoria geralmente encontrarão sucesso e felicidade na vida, mas promete que, de maneira absoluta, elas encontrarão alegria e bênção na eternidade. Há uma relação muito estreita entre a sabedoria e Deus. Por exemplo, ambos prescrevem obediência e moralidade e ambos prometem sucesso e vida eterna. Eles estão relacionados porque a sabedoria pressupõe o temor de Deus; porque Deus é a fonte deste conselho piedoso e inspirado; e porque Deus é quem garante as bênçãos que a sabedoria promete. Os benefícios da sabedoria e os de Deus são os mesmos. Aquilo que a sabedoria promete é aquilo que Deus concede (4:4-8).",
+    "estrutura": "O livro de Provérbios é do gênero de sabedoria. Os livros de sabedoria consistem em observações de autores inteligentes sobre o mundo e as pessoas nesse mundo. No entanto, sem uma perspectiva piedosa inspirada, o mundo seria deprimente e sem esperança, como partes de Jó e Eclesiastes o revelam. Finalmente, a sabedoria bíblica é informada pela fé em Deus e nela se fundamenta.\n\nO processo de observação, contemplação e inspiração pode ser visto em Pv 24:30-34. Depois de observar a condição deteriorada do \"campo do preguiçoso\" e da \"vinha do homem vazio de entendimento\", Salomão contemplou aquilo que via e foi inspirado: \"Então eu vi, e o considerei bem; olhei sobre ele, e recebi instrução\" (v. 32). Ele compôs um novo provérbio ou aplicou um provérbio familiar à situação: \"'Ainda, um pouco a dormir, um pouco a toscanejar, um pouco a cruzar os braços em repouso; assim virá a tua pobreza como alguém que viaja, e a tua necessidade como um homem armado\" (v. 33-34).\n\nProvérbios é escrito como poesia hebraica. A poesia hebraica é sucinta e concisa, ela usa muitas imagens, e geralmente a segunda linha complementa ou contrasta a ideia da primeira. Contemplar como a segunda linha se relaciona com a primeira é um modo proveitoso de refletir sobre um provérbio.\n\nNos capítulos 1–9, Salomão usou imagens e sustentou argumentos para ensinar a respeito do valor da sabedoria e da sedução do mal. Em 22:17–24:34 há \"ditados\" constituídos por diversos versículos cada, e nos capítulos 30–31 há mais ditados, inclusive ditados numéricos e um acróstico alfabético de elogio à mulher virtuosa. No restante do livro, cada provérbio é, em geral, um versículo. Alguns estudiosos argumentam que esses provérbios individuais são cuidadosamente arranjados em grupos e cada um deveria ser interpretado no contexto do seu grupo. Outros estudiosos consideram a coleção como assistemática e argumentam que o contexto imediato raramente se relaciona com a interpretação.\n\nDe qualquer maneira, é importante interpretar cada provérbio no contexto do livro de Provérbios e da Bíblia como um todo. Por exemplo, embora 21:14 pareça encorajar o suborno, o restante do livro de Provérbios é claramente contrário a isso (15:27), e igualmente o restante da Escritura (Êx 23:8; Ec 7:7).",
+    "_fonte": {
+      "arquivo": "BKJ Fiel 1611 com Estudo Holman — Introdução a Provérbios",
+      "autor": "Editores Holman / BV Books",
+      "localizacao": "p. 933-936 (fotos enviadas 2026-06-17)"
+    }
   },
-  "cronologia": [],
+  "esboco": {
+    "_fonte": {
+      "arquivo": "BKJ Fiel 1611 com Estudo Holman — Introdução a Provérbios, seção \"Esboço\"",
+      "autor": "Editores Holman / BV Books",
+      "localizacao": "p. 936 (foto enviada 2026-06-17)"
+    },
+    "divisoes": [
+      {
+        "numeral": "I",
+        "titulo": "Exortações e advertências de Salomão",
+        "faixa": "1:1–9:18",
+        "subdivisoes": [
+          { "letra": "A", "titulo": "Contraste entre a sabedoria e as riquezas", "faixa": "1:1–3:20" },
+          { "letra": "B", "titulo": "Elogio à sabedoria, ao amor e à conduta digna", "faixa": "3:21–4:27" },
+          { "letra": "C", "titulo": "Advertências contra a cobiça, a preguiça e o engano", "faixa": "5:1–7:27" },
+          { "letra": "D", "titulo": "Um retrato da sabedoria", "faixa": "8:1–9:18" }
+        ]
+      },
+      {
+        "numeral": "II",
+        "titulo": "Provérbios de Salomão",
+        "faixa": "10:1–29:27",
+        "subdivisoes": [
+          { "letra": "A", "titulo": "Provérbios compilados", "faixa": "10:1–22:16" },
+          { "letra": "B", "titulo": "Trinta ditados sobre os sábios", "faixa": "22:17–24:22" },
+          { "letra": "C", "titulo": "Mais ditados dos sábios", "faixa": "24:23-34" },
+          { "letra": "D", "titulo": "Compilação de Ezequias", "faixa": "25:1–29:27" }
+        ]
+      },
+      {
+        "numeral": "III",
+        "titulo": "Outros provérbios",
+        "faixa": "30:1–31:31",
+        "subdivisoes": [
+          { "letra": "A", "titulo": "Ditados de Agur", "faixa": "30:1-33" },
+          { "letra": "B", "titulo": "Ditados de Lemuel", "faixa": "31:1-9" },
+          { "letra": "C", "titulo": "Elogio à mulher exemplar", "faixa": "31:10-31" }
+        ]
+      }
+    ]
+  },
+  "cronologia": {
+    "_fonte": {
+      "arquivo": "BKJ Fiel 1611 com Estudo Holman — Cronologia (rodapé da introdução de Provérbios)",
+      "autor": "Editores Holman / BV Books",
+      "localizacao": "p. 934-935 (fotos enviadas 2026-06-17)"
+    },
+    "faixas": [
+      {
+        "faixa": "5000 a.C.",
+        "eventos": [
+          { "tipo": "mundial", "texto": "A instrução do príncipe Hardjedef, egípcio do império antigo", "data": "2686–2160" },
+          { "tipo": "mundial", "texto": "As instruções dirigidas a Kagemni, egípcio", "data": "2600" },
+          { "tipo": "mundial", "texto": "A instrução de Ptah-Hotep, antigo império do Egito", "data": "2575–2134" },
+          { "tipo": "mundial", "texto": "Coleções de provérbios encontrados entre os arquivos reais em Ebla", "data": "2450–2250" }
+        ]
+      },
+      {
+        "faixa": "1800 a.C.",
+        "eventos": [
+          { "tipo": "biblico", "texto": "Abraão", "data": "2166–1991" },
+          { "tipo": "mundial", "texto": "A instrução real de Khety para Merikare, egípcio", "data": "2160" },
+          { "tipo": "mundial", "texto": "A instrução de um homem para seu filho. Egípcio do império médio", "data": "2040–1640" },
+          { "tipo": "mundial", "texto": "A instrução do rei Amenemhat I para seu filho Sesóstris I, egípcio", "data": "1925" },
+          { "tipo": "mundial", "texto": "Instruções de Shuruppak, Coleção de provérbios sumérios", "data": "1900–1700" }
+        ]
+      },
+      {
+        "faixa": "1200–800 a.C.",
+        "eventos": [
+          { "tipo": "biblico", "texto": "Moisés", "data": "1526–1406" },
+          { "tipo": "mundial", "texto": "Os fenícios desenvolvem um alfabeto de 22 letras que consistia apenas em consoantes. Era lido da direita para a esquerda e tornou-se um importante passo no desenvolvimento do moderno alfabeto ocidental. Esse foi o primeiro alfabeto puramente fonético do mundo. Era baseado em sons e não em representações simbólicas de objetos.", "data": "1600" },
+          { "tipo": "mundial", "texto": "Os conselhos da sabedoria, acadiano", "data": "1500–1200" },
+          { "tipo": "biblico", "texto": "Eventos em Juízes", "data": "1380?–1060?" }
+        ]
+      },
+      {
+        "faixa": "1600 a.C.",
+        "eventos": [
+          { "tipo": "biblico", "texto": "Samuel", "data": "1105?–1025?" },
+          { "tipo": "mundial", "texto": "A instrução de Amenemope, Egito", "data": "1186–1069" },
+          { "tipo": "biblico", "texto": "Saul é ungido rei.", "data": "1050" },
+          { "tipo": "biblico", "texto": "Davi se torna rei sobre todo o Israel.", "data": "1003" },
+          { "tipo": "biblico", "texto": "Salomão se torna rei.", "data": "970" },
+          { "tipo": "biblico", "texto": "Provérbios", "data": "970" }
+        ]
+      }
+    ]
+  },
   "artigos": [],
   "abreviacoes": [
     { "sigla": "1Mac", "significado": "1Macabeus" },

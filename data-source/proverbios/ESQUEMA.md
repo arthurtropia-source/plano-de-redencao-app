@@ -36,9 +36,10 @@ texto sagrado. Para Provérbios, catalogamos:
 ## Arquivos
 
 ```
-_livro.json     # nível-livro: introducao, cronologia[], artigos[], abreviacoes[], capitulos[]
-cap-NN.json     # um por capítulo (cap-01.json ... cap-31.json)
-ESQUEMA.md      # este arquivo
+_livro.json            # nível-livro: introducao, cronologia, esboco, artigos[], abreviacoes[], capitulos[]
+_indice_tematico.json  # "Tabela de Temas" de Provérbios (índice cruzado tema → versículos)
+cap-NN.json            # um por capítulo (cap-01.json ... cap-31.json)
+ESQUEMA.md             # este arquivo
 ```
 
 ## Formato de `_fonte`
@@ -60,30 +61,114 @@ Segue o padrão do projeto (`{ arquivo, autor, localizacao }`):
 
 ## Schema — `_livro.json`
 
+> Os campos de `introducao` refletem as seções que **de fato** aparecem na
+> introdução de Provérbios (não as de Lucas). Provérbios **não tem** "Contribuição
+> à Bíblia"; tem a abertura "O que é um provérbio?" e seções "Estrutura" e
+> "Esboço" separadas.
+
 ```jsonc
 {
   "versao": "1.0",
   "ultima_atualizacao": "AAAA-MM-DD",
   "historico_mudancas": [ { "data": "...", "descricao": "...", "autor": "..." } ],
   "livro": "Provérbios",
+
   "introducao": {
-    "autor": "",                 // texto verbatim da seção "Autor"
-    "contexto_historico": "",
-    "mensagem_proposito": "",
-    "contribuicao_biblia": "",
-    "estrutura_esboco": "",
+    "o_que_e_proverbio": "",     // abertura (definição + inspiração divina) — VERBATIM
+    "citacao_destaque": { "texto": "", "referencia": "1:20-22a" },
+    "autor": "",                 // seção "Autor" — VERBATIM
+    "contexto_historico": "",    // seção "Contexto Histórico" — VERBATIM
+    "mensagem_proposito": "",    // seção "Mensagem e Propósito" — VERBATIM
+    "estrutura": "",             // seção "Estrutura" — VERBATIM
     "_fonte": { }
   },
-  "cronologia": [
-    { "faixa": "", "eventos": [ { "tipo": "biblico|mundial", "data": "", "texto": "" } ], "_fonte": { } }
-  ],
+
+  "esboco": {                    // seção "Esboço" — estruturada (espinha do livro)
+    "_fonte": { },
+    "divisoes": [
+      {
+        "numeral": "I",
+        "titulo": "",
+        "faixa": "1:1–9:18",
+        "subdivisoes": [ { "letra": "A", "titulo": "", "faixa": "1:1–3:20" } ]
+      }
+    ]
+  },
+
+  "cronologia": {                // seção "Cronologia" — eventos por faixa de datas
+    "_fonte": { },
+    "faixas": [
+      {
+        "faixa": "5000 a.C.",
+        "eventos": [ { "tipo": "biblico|mundial", "texto": "", "data": "" } ]
+      }
+    ]
+  },
+
   "artigos": [
     { "id": "", "titulo": "", "autor": "", "corpo": "", "_fonte": { } }
   ],
+
   "abreviacoes": [ { "sigla": "Heb.", "significado": "Hebraico" } ],
+  "_fonte_abreviacoes": { },
+
   "capitulos": [ { "numero": 1, "arquivo": "cap-01.json" } ]
 }
 ```
+
+### Cronologia — classificação `tipo`
+
+Distinção por **conteúdo** (a Holman distingue por cor: bíblico = preto,
+mundial = marrom): figuras e eventos de Israel/Bíblia (Abraão, Moisés, Samuel,
+Saul, Davi, Salomão, "Provérbios", "Eventos em Juízes") = `"biblico"`; instruções
+egípcias/sumérias/acádias, Ebla, alfabeto fenício, Amenemope = `"mundial"`.
+
+## Schema — `_indice_tematico.json` (Tabela de Temas)
+
+Índice cruzado tema → versículos. Hierarquia de até 5 níveis + casos especiais
+(versículos diretos no tema, sub-subtemas aninhados, ponteiros "Ver …").
+
+```jsonc
+{
+  "livro": "Provérbios",
+  "_fonte": { },                 // "PROVÉRBIOS: TABELA DE TEMAS"
+  "categorias": [
+    {
+      "nome": "SERES HUMANOS",   // macrocategoria (faixa marrom escura)
+      "subcategorias": [
+        {
+          "nome": "EMOÇÕES",     // subcategoria (faixa bege)
+          "temas": [
+            {
+              "nome": "IRA",
+              "versiculos": [],  // versículos diretos no tema (quando houver)
+              "subtemas": [
+                {
+                  "nome": "ira, fúria",
+                  "versiculos": [ "14:17a", "14:29" ],
+                  "ver_referencia": null,            // ponteiro "Ver ..." (opcional)
+                  "subsubtemas": [                   // 3º nível (ex.: disputas)
+                    { "nome": "briga", "versiculos": [ "22:10" ] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+**Regras da tabela:**
+- Listas de versículos viram **arrays** (split em `"; "`), preservando os sufixos
+  de meio-versículo (`a`/`b`/`c`) e faixas (`14:24-25`) verbatim.
+- `versiculos` no nível do tema = a linha sem rótulo de subtema (ex.: FAMÍLIA,
+  AMOR E ÓDIO, GLÓRIA têm versículos diretos **e** subtemas).
+- `ver_referencia` guarda o texto do ponteiro (ex.: "Ver Seres Humanos/Emoções/Feliz, Abençoado").
+- Continuações entre páginas ("… (CONTINUAÇÃO)") são unificadas na mesma subcategoria.
+- Nomes de categoria/subcategoria mantidos **como impressos** (caixa alta).
 
 ## Schema — `cap-NN.json`
 
