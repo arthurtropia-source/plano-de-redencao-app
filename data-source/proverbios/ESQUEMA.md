@@ -172,67 +172,56 @@ egípcias/sumérias/acádias, Ebla, alfabeto fenício, Amenemope = `"mundial"`.
 
 ## Schema — `cap-NN.json`
 
+> **Proveniência:** o bloco `_fonte` fica no nível do capítulo (arquivo + autor +
+> páginas). Cada registro carrega apenas `pagina` (número da página impressa),
+> já que `arquivo`/`autor` são constantes no livro inteiro.
+
+> **Convenções de transcrição (verbatim) no `texto`:**
+> - `*palavra*` (entre asteriscos) = palavra em **itálico** no impresso (suprida
+>   pelos tradutores, não está no original hebraico). Ex.: `O *homem* sábio`.
+> - `SENHOR` (em versalete no impresso) = nome divino (YHWH). Transcrito em CAIXA ALTA.
+> - `¶` no início do `texto` é registrado via `inicia_paragrafo: true` (pilcrow).
+> - Nas **notas**, `**palavra**` = trecho em negrito (procede do texto da Escritura);
+>   `*termo*` em nota = transliteração do original (heb./gr./aram.).
+
 ```jsonc
 {
   "livro": "Provérbios",
   "capitulo": 1,
-  "_fonte_pagina": [ "p. 0000 · foto enviada AAAA-MM-DD" ],
+  "_fonte": {
+    "arquivo": "BKJ Fiel 1611 com Estudo Holman — Provérbios",
+    "autor": "Editores Holman / BV Books",
+    "localizacao": "p. 944-945 (fotos enviadas AAAA-MM-DD)"
+  },
+  "titulo_secao": "O propósito e o tema",   // cabeçalho(s) impresso(s) no capítulo
 
   "versiculos": [
     {
-      "ref": "1:1",
-      "numero": 1,
-      "inicia_paragrafo": false,        // true se houver pilcrow (¶) iniciando o parágrafo
-      "texto": "",                      // VERBATIM
-      "palavras_vermelho": [],          // trechos em vermelho (palavras de Deus), se houver
-      "notas_textuais": [               // marcadores de nota no texto → tradução/original
-        {
-          "ancora": "",                 // palavra/expressão do versículo a que a nota se refere
-          "idioma": "heb",              // heb | gr | aram (ou "" se não indicado)
-          "tipo": "traducao",           // traducao | variante | literal
-          "texto": "",                  // VERBATIM (com abreviações)
-          "_fonte": { }
-        }
-      ],
-      "_fonte": { }
-    }
-  ],
-
-  "notas_estudo": [
-    {
-      "lema": "1:1-7",                  // como aparece em negrito no rodapé
-      "ref_inicio": "1:1",
-      "ref_fim": "1:7",
-      "texto": "",                      // VERBATIM
-      "palavras_destacadas": [],        // palavras em negrito (procedem do texto da Escritura)
-      "_fonte": { }
+      "ref": "1:7",
+      "numero": 7,
+      "pagina": 944,
+      "inicia_paragrafo": true,             // pilcrow ¶
+      "texto": "O temor do SENHOR é o princípio do conhecimento; *mas* os loucos desprezam a sabedoria e a instrução.",
+      "notas_textuais": []                  // marcadores de tradução/original no versículo (quando houver)
     }
   ],
 
   "referencias_cruzadas": [
+    { "ref": "1:7", "alvos": ["Jó 28:28", "Pv 11:10", "Ec 12:13"], "pagina": 944 }
+  ],
+
+  "notas_estudo": [
     {
-      "ref": "1:7",
-      "alvos": [ "Jó 28:28", "Sl 111:10" ],  // referências parseadas, uma por item
-      "_fonte": { }
+      "lema": "1:1-7",                      // como impresso (versículo ou faixa)
+      "ref_inicio": "1:1",
+      "ref_fim": "1:7",
+      "pagina": 944,
+      "texto": "..."                        // VERBATIM, com **negrito** e *original*
     }
   ],
 
-  "estudos_palavra": [
-    {
-      "termo": "",                      // transliteração como impressa
-      "idioma": "heb",
-      "pronuncia": "",
-      "traducao_bkj": "",
-      "ocorrencias": { },               // ex.: { "no_livro": 2, "no_at": 13 } — só o que estiver impresso
-      "passagem_foco": "Pv 1:7",
-      "texto": "",                      // VERBATIM
-      "_fonte": { }
-    }
-  ],
-
-  "recursos_visuais": [                 // opcional; raro em Provérbios
-    { "tipo": "quadro", "titulo": "", "descricao": "", "_fonte": { } }
-  ]
+  "estudos_palavra": [ /* box de estudo de palavra, quando a página tiver */ ],
+  "recursos_visuais": [ /* mapa/quadro/ilustração/foto, quando houver */ ]
 }
 ```
 

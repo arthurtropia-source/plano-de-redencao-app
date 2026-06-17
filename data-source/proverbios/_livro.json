@@ -11,6 +11,11 @@
       "data": "2026-06-17",
       "descricao": "Catalogação da parte introdutória: texto da introdução (O que é um provérbio, Autor, Contexto Histórico, Mensagem e Propósito, Estrutura), esboço estruturado e cronologia. Tabela de Temas em _indice_tematico.json. Capítulos ainda não enviados.",
       "autor": "Claude/Arthur"
+    },
+    {
+      "data": "2026-06-17",
+      "descricao": "Capítulo 1 catalogado (33 versículos, 16 grupos de referências cruzadas, 20 notas de estudo) a partir das fotos das páginas 944-945. Fotos enviadas das páginas 944-965 (Provérbios 1-18).",
+      "autor": "Claude/Arthur"
     }
   ],
   "livro": "Provérbios",
@@ -159,5 +164,7 @@
     "autor": "Editores Holman / BV Books",
     "localizacao": "página de abreviações (foto enviada 2026-06-17)"
   },
-  "capitulos": []
+  "capitulos": [
+    { "numero": 1, "arquivo": "cap-01.json", "paginas": [944, 945], "versiculos": 33 }
+  ]
 }
