@@ -1,0 +1,62 @@
+{
+  "versao": "1.0",
+  "ultima_atualizacao": "2026-06-17",
+  "historico_mudancas": [
+    {
+      "data": "2026-06-17",
+      "descricao": "Scaffolding inicial do catálogo de Provérbios (esquema + abreviações da Bíblia de Estudo Holman). Introdução, cronologia, artigos e capítulos ainda vazios — aguardando fotos das páginas.",
+      "autor": "Claude/Arthur"
+    }
+  ],
+  "livro": "Provérbios",
+  "introducao": {
+    "autor": "",
+    "contexto_historico": "",
+    "mensagem_proposito": "",
+    "contribuicao_biblia": "",
+    "estrutura_esboco": "",
+    "_fonte": null
+  },
+  "cronologia": [],
+  "artigos": [],
+  "abreviacoes": [
+    { "sigla": "1Mac", "significado": "1Macabeus" },
+    { "sigla": "a.C.", "significado": "antes de Cristo" },
+    { "sigla": "a.m.", "significado": "da meia-noite até o meio-dia" },
+    { "sigla": "Ac.", "significado": "Acádio" },
+    { "sigla": "Ant.", "significado": "Antiguidades - história do povo judeu por Josefo" },
+    { "sigla": "Aram.", "significado": "Aramaico" },
+    { "sigla": "AT", "significado": "Antigo Testamento" },
+    { "sigla": "BTX", "significado": "Bíblia Textual" },
+    { "sigla": "c. de", "significado": "cerca de" },
+    { "sigla": "cp.", "significado": "Comparar, conferir" },
+    { "sigla": "d.C.", "significado": "depois de Cristo" },
+    { "sigla": "esp.", "significado": "especialmente" },
+    { "sigla": "etc.", "significado": "et cetera, e assim por diante" },
+    { "sigla": "Gr.", "significado": "Grego" },
+    { "sigla": "Heb.", "significado": "Hebraico" },
+    { "sigla": "Lat.", "significado": "Latim" },
+    { "sigla": "lit.", "significado": "Literalmente" },
+    { "sigla": "LXX", "significado": "Septuaginta - antiga versão grega do Antigo Testamento" },
+    { "sigla": "mss.", "significado": "Manuscritos" },
+    { "sigla": "NT", "significado": "Novo Testamento" },
+    { "sigla": "Psh", "significado": "Peshitta" },
+    { "sigla": "p. ex.", "significado": "por exemplo" },
+    { "sigla": "p.", "significado": "Página, páginas" },
+    { "sigla": "p.m.", "significado": "Do meio-dia até a meia-noite" },
+    { "sigla": "pl.", "significado": "plural" },
+    { "sigla": "RMM", "significado": "Rolos do mar Morto" },
+    { "sigla": "séc.", "significado": "século" },
+    { "sigla": "Sir.", "significado": "Siríaco(a)" },
+    { "sigla": "tb.c.c.", "significado": "Também conhecido(a) como" },
+    { "sigla": "TM", "significado": "Texto Massorético" },
+    { "sigla": "v.", "significado": "Versículo(s)" },
+    { "sigla": "Vg.", "significado": "Vulgata - antiga versão latina da Bíblia" }
+  ],
+  "_fonte_abreviacoes": {
+    "arquivo": "BKJ Fiel 1611 com Estudo Holman — \"Abreviações mais comumente usadas\"",
+    "autor": "Editores Holman / BV Books",
+    "localizacao": "página de abreviações (foto enviada 2026-06-17)"
+  },
+  "capitulos": []
+}
