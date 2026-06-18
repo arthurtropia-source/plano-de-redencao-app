@@ -165,6 +165,7 @@
     "localizacao": "página de abreviações (foto enviada 2026-06-17)"
   },
   "capitulos": [
-    { "numero": 1, "arquivo": "cap-01.json", "paginas": [944, 945], "versiculos": 33 }
+    { "numero": 1, "arquivo": "cap-01.json", "paginas": [944, 945], "versiculos": 33 },
+    { "numero": 2, "arquivo": "cap-02.json", "paginas": [945, 946], "versiculos": 22 }
   ]
 }
