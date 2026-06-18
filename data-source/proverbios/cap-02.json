@@ -1,0 +1,63 @@
+{
+  "livro": "Provérbios",
+  "capitulo": 2,
+  "_fonte": {
+    "arquivo": "BKJ Fiel 1611 com Estudo Holman — Provérbios",
+    "autor": "Editores Holman / BV Books",
+    "localizacao": "p. 945-946 (fotos IMG_0045–IMG_0046, enviadas 2026-06-17)"
+  },
+  "titulo_secao": "O valor da sabedoria",
+  "versiculos": [
+    { "ref": "2:1", "numero": 1, "pagina": 945, "inicia_paragrafo": false, "texto": "Meu filho, se receberes minhas palavras, e esconderes contigo os meus mandamentos;", "notas_textuais": [] },
+    { "ref": "2:2", "numero": 2, "pagina": 945, "inicia_paragrafo": false, "texto": "para que inclines teu ouvido à sabedoria, e apliques o teu coração ao entendimento;", "notas_textuais": [] },
+    { "ref": "2:3", "numero": 3, "pagina": 945, "inicia_paragrafo": false, "texto": "e se clamares por conhecimento, *e* elevares tua voz por entendimento,", "notas_textuais": [] },
+    { "ref": "2:4", "numero": 4, "pagina": 945, "inicia_paragrafo": false, "texto": "e se buscares como à prata e a procurares como *a* tesouros escondidos,", "notas_textuais": [] },
+    { "ref": "2:5", "numero": 5, "pagina": 945, "inicia_paragrafo": false, "texto": "então entenderás o temor do SENHOR, e acharás o conhecimento de Deus.", "notas_textuais": [] },
+    { "ref": "2:6", "numero": 6, "pagina": 945, "inicia_paragrafo": false, "texto": "Porque o SENHOR dá a sabedoria; da sua boca vem o conhecimento e o entendimento.", "notas_textuais": [] },
+    { "ref": "2:7", "numero": 7, "pagina": 946, "inicia_paragrafo": false, "texto": "Ele reserva a perfeita sabedoria para os justos; ele é um broquel para aqueles que caminham corretamente.", "notas_textuais": [] },
+    { "ref": "2:8", "numero": 8, "pagina": 946, "inicia_paragrafo": false, "texto": "Ele guarda as veredas do juízo, e preserva o caminho dos seus santos.", "notas_textuais": [] },
+    { "ref": "2:9", "numero": 9, "pagina": 946, "inicia_paragrafo": false, "texto": "Então entenderás a justiça, o juízo, a equidade; sim, toda boa vereda.", "notas_textuais": [] },
+    { "ref": "2:10", "numero": 10, "pagina": 946, "inicia_paragrafo": true, "texto": "Quando a sabedoria entrar no teu coração, e o conhecimento for agradável à tua alma,", "notas_textuais": [] },
+    { "ref": "2:11", "numero": 11, "pagina": 946, "inicia_paragrafo": false, "texto": "a discrição te preservará, e o entendimento te guardará;", "notas_textuais": [] },
+    { "ref": "2:12", "numero": 12, "pagina": 946, "inicia_paragrafo": false, "texto": "para te livrar do caminho do homem mau, do homem que fala coisas perversas;", "notas_textuais": [] },
+    { "ref": "2:13", "numero": 13, "pagina": 946, "inicia_paragrafo": false, "texto": "que deixam as veredas da retidão, para andarem pelos caminhos das trevas;", "notas_textuais": [] },
+    { "ref": "2:14", "numero": 14, "pagina": 946, "inicia_paragrafo": false, "texto": "que se regozijam fazer o mal, e se deleitam com a perversidade dos maus,", "notas_textuais": [] },
+    { "ref": "2:15", "numero": 15, "pagina": 946, "inicia_paragrafo": false, "texto": "cujas veredas *são* tortuosas, e são perversos em seus caminhos;", "notas_textuais": [] },
+    { "ref": "2:16", "numero": 16, "pagina": 946, "inicia_paragrafo": false, "texto": "para te livrar da mulher estrangeira, e *até* mesmo da estrangeira que lisonjeia com suas palavras;", "notas_textuais": [] },
+    { "ref": "2:17", "numero": 17, "pagina": 946, "inicia_paragrafo": false, "texto": "que abandona o guia da sua mocidade, e se esquece do pacto do seu Deus;", "notas_textuais": [] },
+    { "ref": "2:18", "numero": 18, "pagina": 946, "inicia_paragrafo": false, "texto": "porque a sua *casa* se inclina para a morte, e as suas veredas *para* os mortos.", "notas_textuais": [] },
+    { "ref": "2:19", "numero": 19, "pagina": 946, "inicia_paragrafo": false, "texto": "Nenhum dos que vão até ela torna novamente, nem retomam as veredas da vida.", "notas_textuais": [] },
+    { "ref": "2:20", "numero": 20, "pagina": 946, "inicia_paragrafo": false, "texto": "Para que tu possas andar pelo caminho *dos* homens bons, e guardar as veredas dos justos.", "notas_textuais": [] },
+    { "ref": "2:21", "numero": 21, "pagina": 946, "inicia_paragrafo": false, "texto": "Porque os retos habitarão a terra, e os perfeitos permanecerão nela.", "notas_textuais": [] },
+    { "ref": "2:22", "numero": 22, "pagina": 946, "inicia_paragrafo": false, "texto": "Mas os ímpios serão arrancados da terra, e os transgressores serão exterminados dela.", "notas_textuais": [] }
+  ],
+  "referencias_cruzadas": [
+    { "ref": "2:4", "alvos": ["Pv 3:14", "Mt 13:44"], "pagina": 945 },
+    { "ref": "2:6", "alvos": ["1Rs 3:9,12", "Tg 1:5"], "pagina": 945 },
+    { "ref": "2:7", "alvos": ["Sl 84:11"], "pagina": 946 },
+    { "ref": "2:8", "alvos": ["1Sm 2:9", "Sl 66:9"], "pagina": 946 },
+    { "ref": "2:11", "alvos": ["Pv 6:22"], "pagina": 946 },
+    { "ref": "2:13", "alvos": ["Jo 3:19"], "pagina": 946 },
+    { "ref": "2:14", "alvos": ["Jr 11:15"], "pagina": 946 },
+    { "ref": "2:15", "alvos": ["Sl 125:5"], "pagina": 946 },
+    { "ref": "2:17", "alvos": ["Ml 2:14"], "pagina": 946 },
+    { "ref": "2:18", "alvos": ["Pv 7:27"], "pagina": 946 },
+    { "ref": "2:21", "alvos": ["Sl 37:29"], "pagina": 946 }
+  ],
+  "notas_estudo": [
+    { "lema": "2:1-22", "ref_inicio": "2:1", "ref_fim": "2:22", "pagina": 945, "texto": "Os primeiros quatro versículos desse capítulo são uma condição (**se**), seguidos por dois resultados (**então**) nos versículos 5-8 e 9-11. Os versículos 12-15 e 16-19 descrevem os benefícios dos resultados – ser resgatado do caminho do mal e da mulher **estrangeira**. Os versículos 20-22 constituem a conclusão." },
+    { "lema": "2:1-5", "ref_inicio": "2:1", "ref_fim": "2:5", "pagina": 946, "texto": "Em vez de meramente aprender a respeito da sabedoria, o estudante é chamado em primeiro lugar a aceitar (em vez de desprezar ou rejeitar; 1:7,30) e incorporar a sabedoria, e então a clamar e procurar ardentemente por ela. O resultado é um relacionamento (**conhecimento**) reverente (ou seja, **temor** de maneira apropriada) com Deus, que é um pré-requisito da verdadeira sabedoria (1:7)." },
+    { "lema": "2:7", "ref_inicio": "2:7", "ref_fim": "2:7", "pagina": 946, "texto": "Ao guardardes os mandamentos de Deus (v. 1), **Ele reserva a sabedoria** como nossa recompensa. O termo traduzido como sabedoria (3:21; 18:1; 8:14 [sensato]) tem a ver com sensatez (Is 28:29 [bom senso]), competência e sucesso (Jó 5:12; 6:13). **Justos** significa \"que corresponde à instrução ética de Deus\" (Heb. *yashar*; ver estudo de palavra em 21:2). A palavra hebraica para \"**corretamente**\" sugere genuinidade e confiabilidade; é traduzida também como \"justo\" (10:29) e \"reto/honesto\" (29:10)." },
+    { "lema": "2:8", "ref_inicio": "2:8", "ref_fim": "2:8", "pagina": 946, "texto": "Sobre **preservar**, ver \"obedeça\" na nota em 4:4,6." },
+    { "lema": "2:9-10", "ref_inicio": "2:9", "ref_fim": "2:10", "pagina": 946, "texto": "Entender é outro resultado (**então**; cp. v. 5) de se procurar a sabedoria. Uma pessoa pode viver eticamente quando possui **sabedoria** ou seu **coração** (ver nota em 4:23) e **alma** (Heb. *nephesh*; ver nota em 13:2-4). A sabedoria de Deus entrando numa pessoa e tornando-lhe **agradável** o conhecimento divino equivale à regeneração (Jr 31:31-33; Ez 36:27; 1Co 1:18). Sobre **vereda**, ver nota em 1:15." },
+    { "lema": "2:11", "ref_inicio": "2:11", "ref_fim": "2:11", "pagina": 946, "texto": "Ter **sutileza** (ver nota em 1:4) e **entendimento** (ver nota em 1:2) evitará um comportamento autodestrutivo (1:19)." },
+    { "lema": "2:12", "ref_inicio": "2:12", "ref_fim": "2:12", "pagina": 946, "texto": "Sobre **mau**, ver nota em 1:16. **Perversas** é literalmente \"tombado, virado de cabeça para baixo\" (Jz 7:13; 2Rs 21:13), fazendo uma coisa virar outra diferente (Dt 23:5; Is 29:16; Jr 2:21; Am 5:7) – neste caso, torcendo a verdade em mentira (Jr 23:36)." },
+    { "lema": "2:14", "ref_inicio": "2:14", "ref_fim": "2:14", "pagina": 946, "texto": "Fazer o **mal** é solapar a sociedade e aplaudir sua ruína." },
+    { "lema": "2:15", "ref_inicio": "2:15", "ref_fim": "2:15", "pagina": 946, "texto": "**Tortuosas** é o oposto de \"justo\" (v. 7); significa \"perversas\" (11:20; 28:6) ou \"pervertidas\" (Dt 32:5). Sobre **veredas** e **caminhos**, ver nota em 1:15." },
+    { "lema": "2:16", "ref_inicio": "2:16", "ref_fim": "2:16", "pagina": 946, "texto": "A **mulher estrangeira** abandona o marido (v. 17) e quer destruir a sociedade (5:3,20; 7:5; 22:14). A **estrangeira** (pervertida) também é comprometida com a comunidade dos fiéis (5:20; 6:24; 7:5; 23:27). **Lisonjeia** (lit. \"ser macio\") **com... palavras** sempre tem uma agenda que envolve a destruição de outras pessoas (5:3; 7:5,21; 26:28; 28:23; 29:5; Sl 55:21). Essa advertência se aplica a qualquer pessoa que apela a instintos degradantes com segundas intenções." },
+    { "lema": "2:18-19", "ref_inicio": "2:18", "ref_fim": "2:19", "pagina": 946, "texto": "A união com a mulher imoral/estrangeira é autodestrutiva (1:19). A palavra hebraica para **mortos** é a mesma para refains, um povo cananeu (Dt 2:20-21), no entanto, na poesia hebraica, ela se refere aos que habitam nas sepulturas (Pv 9:18; 21:16; cp. Is 14:9)." },
+    { "lema": "2:20-22", "ref_inicio": "2:20", "ref_fim": "2:22", "pagina": 946, "texto": "Esses **homens bons** possuem excelência moral. Figuradamente, habitar na **terra** significa desfrutar a bênção de Deus por meio de um relacionamento com Ele (Sl 37:3; Jr 7:5-7). Embora a advertência de Pv 2:16-19 seja especificamente contra as relações sexuais ilícitas, ela sugere uma aplicação mais ampla. Aqueles que escolhem o bem desfrutarão eternamente das bênçãos de Deus (Sl 37:29; Is 60:21; Mt 5:5), porém os **ímpios** (maus, perversos, egoístas, intensamente antissociais) serão eternamente **arrancados** da bênção de Deus. **Os transgressores** são desleais nos relacionamentos; aqui eles abandonam o compromisso com Deus." }
+  ],
+  "estudos_palavra": [],
+  "recursos_visuais": []
+}
