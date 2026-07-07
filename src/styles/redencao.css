@@ -559,6 +559,10 @@
 .curso-redencao .rd-verse-txt::before,.curso-redencao .rd-verse-txt::after{content:'';display:block;width:55px;height:1px;background:var(--o);margin:14px auto;opacity:0.5;}
 .curso-redencao .rd-verse-ref{font-family:'Cinzel',serif;font-size:0.66rem;color:var(--o);letter-spacing:0.2em;margin-top:8px;}
 
+/* callout de gravidade (ex.: Morte Eterna) — tom carmesim */
+.curso-redencao .rd-warn{border-left:4px solid #a84040;background:rgba(122,42,42,0.16);padding:18px 22px;border-radius:0 3px 3px 0;margin:24px 0;font-style:italic;font-size:1.02rem;color:#e8c8c8;line-height:1.75;}
+.curso-redencao .rd-warn strong{color:#e8aaaa;font-style:normal;}
+
 @media(max-width:700px){
   .curso-redencao .section{padding:48px 0;}
   .curso-redencao .container{padding:0 16px;}
